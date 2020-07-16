@@ -48,8 +48,10 @@ const CtaDiscord = ({
           <div className="cta-slogan">
             <h3 className="m-0">Get access to the closed beta</h3>
             <p className="small text-white">
-              Join our Discord group and message a team member for a unique
-              access token
+              If you already have your access token, click{" "}
+              <a href="https://app.realitycards.io">here</a>. Otherwise, please
+              join our discord group and message a team member for a unique
+              access token.
             </p>
           </div>
           <div className="cta-action">

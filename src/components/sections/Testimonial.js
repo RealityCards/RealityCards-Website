@@ -50,6 +50,33 @@ const Testimonial = ({
           <SectionHeader data={sectionHeader} className="center-content" />
           <div className={tilesClasses}>
             <div
+              className="tiles-item reveal-from-left"
+              data-reveal-delay="200"
+            >
+              <div className="tiles-item-inner rounded">
+                <div className="testimonial-item-content">
+                  <p className="text-sm mb-0">
+                    — They really did a great job with the UX! The values on the
+                    front end, such as the percentage of ownership of the token
+                    and the implied odds really emphasize the uniqueness of this
+                    radically new type of prediction market. It’s something
+                    fundamentally new and it makes the whole process of betting
+                    on something finally engaging! I’m already a fan 💪
+                  </p>
+                </div>
+                <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
+                  <span className="testimonial-item-name text-color-high">
+                    Marvin Kruse
+                  </span>
+                  <span className="text-color-low"> / </span>
+                  <span className="testimonial-item-link">
+                    <a href="https://ditcraft.io">ditCraft</a>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            {/* <div
               className="tiles-item reveal-from-right"
               data-reveal-delay="200"
             >
@@ -67,13 +94,11 @@ const Testimonial = ({
                   <span className="testimonial-item-name text-color-high">
                     Daniel Chilvers
                   </span>
-                  {/* <span className="text-color-low"> / </span>
-                  <span className="testimonial-item-link">
-                    <a href="#0">AppName</a>
-                  </span> */}
+                  <span className="text-color-low"> / </span>
+                  <span className="testimonial-item-link">Engineer</span>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             <div className="tiles-item reveal-from-bottom">
               <div className="tiles-item-inner rounded">
@@ -98,24 +123,22 @@ const Testimonial = ({
             </div>
 
             <div
-              className="tiles-item reveal-from-left"
+              className="tiles-item reveal-from-right"
               data-reveal-delay="200"
             >
               <div className="tiles-item-inner rounded">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — I like the UX, great job! Also the values on the front end
-                    (like percent of ownership share and implied odds) are nice.
-                    Already a fan 💪
+                    — The more I think about it, the more I like it.
                   </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                   <span className="testimonial-item-name text-color-high">
-                    Marvin Kruse
+                    Dennison Bertram
                   </span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="https://ditcraft.io">ditCraft</a>
+                    <a href="https://www.dapphero.io/">DappHero</a>
                   </span>
                 </div>
               </div>

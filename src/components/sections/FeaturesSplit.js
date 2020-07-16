@@ -51,7 +51,7 @@ const FeaturesSplit = ({
   const sectionHeader = {
     title: `Brand new <span class="text-color-primary">#defi</span> betting system`,
     paragraph:
-      "Reality Cards aims to become the main platform for retail users to run p2p prediction markets and other innovative Ethereum-based financial products.",
+      "Reality Cards is the world's first NFT-based prediction market.",
   };
 
   return (
@@ -70,11 +70,10 @@ const FeaturesSplit = ({
                 </div>
                 <h3 className="mt-0 mb-12">Outcome ownership</h3>
                 <p className="m-0">
-                  Reality Cards is completely different from existing prediction
-                  markets (Augur, Gnosis Sight/Omen, Flux etc.) in that instead
-                  of betting on an outcome, you own it. If the outcome is
-                  already owned, no problem- just pay a higher rental price, and
-                  you will immediately become the new owner.
+                  Reality Cards is completely different from other prediction
+                  markets in that instead of betting on an outcome, you own it.
+                  If the outcome is already owned, no problem- just pay a higher
+                  rental price, and you will immediately become the new owner.
                 </p>
               </div>
               <div
@@ -139,8 +138,7 @@ const FeaturesSplit = ({
                   Reality Cards uses a completely decentralised oracle solution
                   to obtain the winning answer. Realit.io is used for the
                   initial oracle, and if there are continued disputes, kleros.io
-                  is used as a decentralised court. [so not quite the same, I
-                  removed 'in the current version'.
+                  is used as a decentralised court.
                 </p>
               </div>
               <div

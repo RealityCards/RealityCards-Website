@@ -66,31 +66,41 @@ const Hero = ({
             </h1>
             <div className="container-xs">
               <p
-                className="m-0 mb-32 reveal-from-bottom"
+                className="m-0 mb-32 reveal-from-bottom small"
                 data-reveal-delay="400"
               >
-                Reality Cards is currently in closed beta.
+                Reality Cards is currently in closed beta and an access token is
+                required. Please join our{" "}
+                <a
+                  href="https://discord.gg/RS8pYJu"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  discord group
+                </a>{" "}
+                and ask one of the team members for one.
               </p>
-              {/* <div className="reveal-from-bottom" data-reveal-delay="600">
+              <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
                   <Button
                     tag="a"
                     color="primary"
                     wideMobile
-                    href="#"
+                    href="https://app.realitycards.io"
                   >
-                    Get started
+                    Visit DApp
                   </Button>
-                  <Button
+                  <p className="small"></p>
+                  {/* <Button
                     tag="a"
                     color="dark"
                     wideMobile
                     href="#"
                   >
                     View on Github
-                  </Button>
+                  </Button> */}
                 </ButtonGroup>
-              </div> */}
+              </div>
             </div>
           </div>
           <div

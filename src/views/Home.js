@@ -15,7 +15,7 @@ const Home = () => {
       <CtaDiscord split />
       <FeaturesTiles />
       <Testimonial topDivider />
-      <Cta split />
+      {/* <Cta split /> */}
     </>
   );
 };

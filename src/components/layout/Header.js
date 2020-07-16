@@ -122,7 +122,7 @@ const Header = ({
                       <li>
                         <a
                           href="https://discord.gg/RS8pYJu"
-                          className="button button-primary button-wide-mobile button-sm"
+                          className="button button-dark button-wide-mobile button-sm"
                           onClick={closeMenu}
                           target="_blank"
                           rel="noopener noreferrer"
