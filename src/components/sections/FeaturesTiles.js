@@ -65,18 +65,17 @@ const FeaturesTiles = ({
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">
-                    Phase 1
-                    <br />
-                    Improve existing MVP
-                  </h4>
+                  <h5 className="mt-0 mb-0">Phase 0</h5>
+                  <h4 className="text-color-primary mt-0 mb-8">MVP</h4>
                   <p className="m-0 text-sm text-left">
-                    • Gamification (leaderboards)
-                    <br />• Integration with 3Box, TheGraph
-                    <br />• Support multiple currencies
-                    <br />• Notifications system
-                    <br />• (and more)
+                    • Contract written and audited
+                    <br />• Comprehensive UX/UI design
+                    <br />• React app
+                    <br />• Deployed on mainnet
                   </p>
+                  <h5 className="small mb-0 text-color-success">
+                    ETA: completed
+                  </h5>
                 </div>
               </div>
             </div>
@@ -97,17 +96,15 @@ const FeaturesTiles = ({
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">
-                    Phase 2
-                    <br />
-                    Market creation
-                  </h4>
+                  <h5 className="mt-0 mb-0">Phase 1</h5>
+                  <h4 className="text-color-primary mt-0 mb-8">v1 Launch</h4>
                   <p className="m-0 text-sm text-left">
-                    • Allow users to create their own markets
-                    <br />• Complete UI/UX overhaul
-                    <br />• Market creation flow
-                    <br />• Front page market curation
+                    • Gamification (leaderboards)
+                    <br />• Integration with 3Box, TheGraph
+                    <br />• Notifications system
+                    <br />• (and more)
                   </p>
+                  <h5 className="small mb-0">ETA: late 2020</h5>
                 </div>
               </div>
             </div>
@@ -128,21 +125,14 @@ const FeaturesTiles = ({
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">
-                    Phase 3
-                    <br />
-                    Reality Cards Raffles
-                  </h4>
+                  <h5 className="mt-0 mb-0">Phase 2</h5>
+                  <h4 className="text-color-primary mt-0 mb-8">v2 Launch</h4>
                   <p className="m-0 text-sm text-left">
-                    • Raffle tickets are sold via areducing-price Dutch auction
-                    <br />• Ticket holders randomly allocated NFTs
-                    <br />• Customisable winnings/payouts - multiple tokens
-                    {/* <br />• Examples:
-                    <br /> - Olympics: each NTF a country,winnings proportional
-                    to Gold Medals
-                    <br /> - Oscars: each NTF a movie, winnings proportional to
-                    Oscars won */}
+                    • Allow users to create their own markets
+                    <br />• Reality Cards governance token
+                    <br />• Liquidity mining
                   </p>
+                  <h5 className="small mb-0">ETA: 2021</h5>
                 </div>
               </div>
             </div>

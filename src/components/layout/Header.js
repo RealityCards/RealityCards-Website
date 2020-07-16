@@ -113,7 +113,7 @@ const Header = ({
                   >
                     <li>
                       <Link to="/faq" onClick={closeMenu}>
-                        FAQ's
+                        FAQ
                       </Link>
                     </li>
                   </ul>
@@ -125,6 +125,7 @@ const Header = ({
                           className="button button-primary button-wide-mobile button-sm"
                           onClick={closeMenu}
                           target="_blank"
+                          rel="noopener noreferrer"
                         >
                           <svg
                             aria-hidden="true"

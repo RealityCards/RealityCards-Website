@@ -53,7 +53,7 @@ const Testimonial = ({
               className="tiles-item reveal-from-right"
               data-reveal-delay="200"
             >
-              <div className="tiles-item-inner">
+              <div className="tiles-item-inner rounded">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
                     — Traditionally you'd place the bet and forget. On Reality
@@ -67,16 +67,16 @@ const Testimonial = ({
                   <span className="testimonial-item-name text-color-high">
                     Daniel Chilvers
                   </span>
-                  <span className="text-color-low"> / </span>
+                  {/* <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
                     <a href="#0">AppName</a>
-                  </span>
+                  </span> */}
                 </div>
               </div>
             </div>
 
             <div className="tiles-item reveal-from-bottom">
-              <div className="tiles-item-inner">
+              <div className="tiles-item-inner rounded">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
                     — There is a strong positive feedback loop incentivizing
@@ -101,7 +101,7 @@ const Testimonial = ({
               className="tiles-item reveal-from-left"
               data-reveal-delay="200"
             >
-              <div className="tiles-item-inner">
+              <div className="tiles-item-inner rounded">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
                     — I like the UX, great job! Also the values on the front end

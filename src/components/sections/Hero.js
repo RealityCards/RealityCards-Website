@@ -94,7 +94,7 @@ const Hero = ({
             </div>
           </div>
           <div
-            className="hero-figure reveal-from-bottom illustration-element-01"
+            className="hero-figure reveal-from-bottom illustration-element-01 rounded"
             data-reveal-value="20px"
           >
             <a

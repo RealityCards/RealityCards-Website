@@ -66,15 +66,15 @@ const FeaturesSplit = ({
                 data-reveal-container=".split-item"
               >
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  unique Non Fungible Token
+                  UNIQUE NON FUNGIBLE TOKEN
                 </div>
                 <h3 className="mt-0 mb-12">Outcome ownership</h3>
                 <p className="m-0">
                   Reality Cards is completely different from existing prediction
                   markets (Augur, Gnosis Sight/Omen, Flux etc.) in that instead
-                  of betting on an outcome, you own it. Concepts such as shares,
-                  bids, asks do not exist - even 'odds' are abstracted away,
-                  replaced by a 'daily rental price'.
+                  of betting on an outcome, you own it. If the outcome is
+                  already owned, no problem- just pay a higher rental price, and
+                  you will immediately become the new owner.
                 </p>
               </div>
               <div
@@ -87,8 +87,8 @@ const FeaturesSplit = ({
                 <Image
                   src={require("./../../assets/images/features-split-image-01.png")}
                   alt="Features split 01"
-                  width={528}
-                  height={396}
+                  width={301}
+                  height={562}
                 />
               </div>
             </div>
@@ -99,14 +99,15 @@ const FeaturesSplit = ({
                 data-reveal-container=".split-item"
               >
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  consumer-oriented
+                  Never before seen mechanics
                 </div>
-                <h3 className="mt-0 mb-12">Transformed UX</h3>
+                <h3 className="mt-0 mb-12">Unique payout mechanism</h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                  — Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
+                  For the first time in the history of gambling, winnings are no
+                  longer determined by how much you bet- all that matters is how
+                  long you owned the outcome for. At the end of an event, the
+                  total pot is distributed among all owners of the winning
+                  outcome, in proportion to seconds owned.
                 </p>
               </div>
               <div
@@ -131,15 +132,15 @@ const FeaturesSplit = ({
                 data-reveal-container=".split-item"
               >
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Powered by Ethereum
+                  POWERED BY ETHEREUM
                 </div>
                 <h3 className="mt-0 mb-12">Completely decentralised</h3>
                 <p className="m-0">
                   Reality Cards uses a completely decentralised oracle solution
-                  to obtain the winning answer. In the current version,
-                  realit.io is used for the initial oracle, and if there are
-                  continued disputes, kleros.io is used as a decentralised
-                  court.
+                  to obtain the winning answer. Realit.io is used for the
+                  initial oracle, and if there are continued disputes, kleros.io
+                  is used as a decentralised court. [so not quite the same, I
+                  removed 'in the current version'.
                 </p>
               </div>
               <div

@@ -8,7 +8,11 @@ const FooterSocial = ({ className, ...props }) => {
     <div {...props} className={classes}>
       <ul className="list-reset">
         <li>
-          <a href="https://discord.gg/RS8pYJu" target="_blank">
+          <a
+            href="https://discord.gg/RS8pYJu"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <svg
               aria-hidden="true"
               focusable="false"
@@ -24,7 +28,11 @@ const FooterSocial = ({ className, ...props }) => {
           </a>
         </li>
         <li>
-          <a href="https://twitter.com/realitycards" target="_blank">
+          <a
+            href="https://twitter.com/realitycards"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <svg
               width="16"
               height="16"
@@ -37,7 +45,11 @@ const FooterSocial = ({ className, ...props }) => {
           </a>
         </li>
         <li>
-          <a href="https://t.me/realitycards" target="_blank">
+          <a
+            href="https://t.me/realitycards"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <svg
               aria-hidden="true"
               focusable="false"
@@ -52,7 +64,11 @@ const FooterSocial = ({ className, ...props }) => {
           </a>
         </li>
         <li>
-          <a href="https://github.com/RealityCards" target="_blank">
+          <a
+            href="https://github.com/RealityCards"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <svg
               aria-hidden="true"
               focusable="false"
