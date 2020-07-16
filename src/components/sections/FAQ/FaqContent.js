@@ -57,7 +57,7 @@ const FaqContent = ({
   );
 
   const sectionHeader = {
-    title: `FAQ's`,
+    title: `FAQ`,
   };
 
   return (
