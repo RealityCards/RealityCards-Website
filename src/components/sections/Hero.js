@@ -60,8 +60,7 @@ const Hero = ({
               data-reveal-delay="200"
             >
               <span className="text-color-primary">Reality Cards</span> is a new
-              type of prediction market, where instead of{" "}
-              <span className="text-line-through">betting</span> on an outcome,
+              type of prediction market, where instead of betting on an outcome,
               you <span className="text-color-primary">own</span> it!
             </h1>
             <div className="container-xs">
