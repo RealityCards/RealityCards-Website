@@ -5,4 +5,4 @@ set -x
 npm install
 
 # Create a production build
-npm run prod
+npm run build
