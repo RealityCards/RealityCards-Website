@@ -25,7 +25,7 @@ $palette: (
     4: #d2f9ee,
   ),
   alert: (
-    error: #ff6171,
+    error: #dc3545,
     warning: #ffa173,
     success: #28a745,
   ),
@@ -80,7 +80,7 @@ $icon--color: (
   // accordion icon
     social-inverse: null,
   // social icons
-    social-hover-inverse: null // social icons (:hover),,,,,
+    social-hover-inverse: null // social icons (:hover),,,,,,
 );
 
 $bg--gradient: linear-gradient(90deg, #000, rgba(0, 0, 0, 0.6));
