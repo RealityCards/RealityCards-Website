@@ -3,6 +3,7 @@ import classNames from "classnames";
 import { SectionTilesProps } from "../../utils/SectionProps";
 import SectionHeader from "./partials/SectionHeader";
 import Image from "../elements/Image";
+import { Link } from "react-router-dom";
 
 const propTypes = {
   ...SectionTilesProps.types,
@@ -136,6 +137,12 @@ const FeaturesTiles = ({
                 </div>
               </div>
             </div>
+          </div>
+          <div className="text-center">
+            <p>
+              Have more questions? Check our 35 points{" "}
+              <Link to="/faq">FAQ page</Link>
+            </p>
           </div>
         </div>
       </div>

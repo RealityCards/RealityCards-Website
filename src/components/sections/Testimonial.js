@@ -49,9 +49,8 @@ const Testimonial = ({
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
           <div className={tilesClasses}>
-
-          <div
-              className="tiles-item reveal-from-right"
+            <div
+              className="tiles-item reveal-from-left"
               data-reveal-delay="200"
             >
               <div className="tiles-item-inner rounded">
@@ -97,7 +96,7 @@ const Testimonial = ({
             </div>
 
             <div
-              className="tiles-item reveal-from-left"
+              className="tiles-item reveal-from-right"
               data-reveal-delay="200"
             >
               <div className="tiles-item-inner rounded">
