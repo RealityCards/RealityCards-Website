@@ -118,7 +118,7 @@ const Header = ({
                     </li>
                     <li>
                       <Link to="/team" onClick={closeMenu}>
-                        TEAM
+                        Team
                       </Link>
                     </li>
                   </ul>
