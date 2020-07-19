@@ -2,6 +2,7 @@ import React from "react";
 import classNames from "classnames";
 import { SectionTilesProps } from "../../utils/SectionProps";
 import SectionHeader from "./partials/SectionHeader";
+import { Link } from "react-router-dom";
 
 const propTypes = {
   ...SectionTilesProps.types,
@@ -143,6 +144,12 @@ const Testimonial = ({
                 </div>
               </div>
             </div> */}
+          </div>
+          <div className="text-center pt-32 mt-32 reveal-from-bottom">
+            <p>
+              Interested to meet the people behind the project? Check the{" "}
+              <Link to="/team">Team page</Link>
+            </p>
           </div>
         </div>
       </div>

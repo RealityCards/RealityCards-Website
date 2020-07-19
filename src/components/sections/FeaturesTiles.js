@@ -138,9 +138,9 @@ const FeaturesTiles = ({
               </div>
             </div>
           </div>
-          <div className="text-center">
+          <div className="text-center reveal-from-bottom">
             <p>
-              Have more questions? Check our 35 points{" "}
+              Have more questions? Check our 33 points{" "}
               <Link to="/faq">FAQ page</Link>
             </p>
           </div>
