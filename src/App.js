@@ -11,6 +11,7 @@ import LayoutDefault from "./layouts/LayoutDefault";
 import Home from "./views/Home";
 import FAQ from "./views/FAQ";
 import Team from "./views/Team";
+import Careers from "./views/Careers";
 import Terms from "./views/Terms";
 import Privacy from "./views/Privacy";
 import Cookie from "./views/Cookie";
@@ -45,6 +46,12 @@ const App = () => {
             exact
             path="/team"
             component={Team}
+            layout={LayoutDefault}
+          />
+          <AppRoute
+            exact
+            path="/careers"
+            component={Careers}
             layout={LayoutDefault}
           />
           <AppRoute

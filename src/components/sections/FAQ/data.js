@@ -128,8 +128,7 @@ export const faqs = [
   },
   {
     header: "How does Reality Cards make money?",
-    body:
-      "<p>Reality Cards does not make any money at this time.</p>",
+    body: "<p>Reality Cards does not make any money at this time.</p>",
   },
   {
     header: "Is the code open source?",
@@ -152,7 +151,8 @@ export const faqs = [
       "<p>The token will have the following uses:<ul><li>Project governance</li><li>Final layer of outcome resolution if there are continued disputes</li><li>Required to create markets (helps to limit spam, duplicate markets etc.)</li><li>Incentivise platform use via liquidity mining</li></ul></br>It will not be necessary to own tokens to interact with existing markets, to rent tokens, etc.</p>",
   },
   {
-    header: "What is the allocation of the Reality Cards governance token (RC)?",
+    header:
+      "What is the allocation of the Reality Cards governance token (RC)?",
     body:
       "<p>Token allocation:<ol><li>Founders/advisors: 25%</li><li>Project Treasury: 25%</li><li>Private & public sales and/or liquidity mining: 50%</li></ol>Tokens allocated to the Project Treasury can only be used with majority approval of existing token holders. There is also a two year vesting period, from the date of the TGE (Token Generation Event), for founders, advisors, and investors (20% initially available, then 20% vesting each six months).<br><br>'Liquidity mining' refers to the allocation of RC tokens to everyone who rents tokens, a growth model used to great success by existing defi platforms such as Balancer and Compound.</p>",
   },
@@ -165,8 +165,7 @@ export const faqs = [
   {
     header:
       "I am an angel investor and/or I represent a fund. How can I get in touch?",
-    body:
-      "<p>Please complete <a href='https://www.realitycards.io/invest' target='_blank'>this</a> form, or email andrew@realitycards.io.</p>",
+    body: "<p>Please reach us by email at andrew@realitycards.io.</p>",
   },
   {
     header: "I have a question that is not listed here",
