@@ -15,6 +15,9 @@ const FooterNav = ({ className, ...props }) => {
           <Link to="/team">Team</Link>
         </li>
         <li>
+          <Link to="/careers">Careers</Link>
+        </li>
+        <li>
           <Link to="/terms-of-service">Terms of Service</Link>
         </li>
         <li>
