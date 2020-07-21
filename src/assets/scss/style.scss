@@ -191,3 +191,27 @@
   font-size: 28px;
   text-align: center;
 }
+
+.w-75 {
+  max-width: 75%;
+  margin: 0 auto;
+}
+
+.panel {
+  background-color: white;
+  padding: 20px 25px;
+  border-radius: 10px;
+
+  h3,
+  p,
+  li,
+  a {
+    color: #222;
+  }
+}
+
+@include media("<=medium") {
+  .w-75 {
+    max-width: 100%;
+  }
+}
