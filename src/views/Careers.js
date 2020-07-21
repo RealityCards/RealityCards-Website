@@ -11,7 +11,7 @@ const Careers = () => {
               data={{
                 title: "Careers",
                 paragraph:
-                  "At this time we're having one open position for the role of Frontend Engineer. Please check the details below.",
+                  "Reality Cards has one open position for the role of Frontend Engineer.",
               }}
               className="center-content w-75"
             />
@@ -19,9 +19,8 @@ const Careers = () => {
               <h3>Frontend Engineer</h3>
               <p>
                 <i>
-                  We’re an early-stage startup. Finished the MVP phase. Closed
-                  the first investing round two weeks ago. And now we’re ready
-                  to build the first iteration for our platform.
+                  We’re an early-stage startup and have just finished the MVP phase. We closed
+                  our seed round two weeks ago. We need your help to work towards a full public release.
                 </i>
               </p>
               <p>
@@ -29,10 +28,8 @@ const Careers = () => {
                   Reality Cards is a decentralized prediction market based on
                   NFTs (non-fungible tokens) on the Ethereum network.
                 </b>{" "}
-                We’re pioneers in using the NFT technology in this context.
-                Currently, the team is formed by the two of us, the co-founders,
-                we’re both technical and fully involved in the development
-                process.
+                Currently, the team consists of just us two co-founders.
+                We are looking to make our first hire.
               </p>
               <p>
                 We’re starting a team to build the first iteration of our
@@ -64,27 +61,26 @@ const Careers = () => {
               </ul>
               <p>
                 <b>The position is full time, long term, and fully remote.</b>{" "}
-                When we’re saying remote, we actually mean remote and not just
-                "you can work from home sometimes". The whole interview process
-                will be conducted in Zoom and you will continue working from
-                your home city.
               </p>
               <p>
                 <i>
                   We prefer to hire someone from an Asian timezone for better
-                  collaboration, but we are open to hearing from you from
-                  anywhere you are in the world right now.
+                  collaboration, but not essential.
                 </i>
               </p>
-              <p>In order to apply we only need:</p>
+              <p>In order to apply we need:</p>
               <ul>
                 <li>
-                  <b>Your CV</b> (can be informal aka personal website, linkedin
-                  profile, just make sure it’s updated.)
+                  <b>Your CV</b> (can be informal aka personal website, linkedin)
                 </li>
                 <li>
-                  <b>A paragraph</b> describing your experience and a couple of
-                  UI/UX suggestions for the current platform.
+                  <b>Your Github</b>
+                </li>
+                <li>
+                  <b>A paragraph</b> describing your previous experience (does not matter if it isn't much)
+                </li>
+                <li>
+                  A couple of UI/UX suggestions on how we could improve the current platform.
                 </li>
               </ul>
               <p>
