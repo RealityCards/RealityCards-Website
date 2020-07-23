@@ -27,7 +27,7 @@ const Testimonial = ({ pushLeft }) => {
               </div>
             </div>
 
-            <div className="tiles-item reveal-from-bottom">
+            {/* <div className="tiles-item reveal-from-bottom">
               <div className="tiles-item-inner rounded">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
@@ -64,10 +64,10 @@ const Testimonial = ({ pushLeft }) => {
                   </span>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             <div
-              className="tiles-item reveal-from-left"
+              className="tiles-item reveal-from-bottom"
               data-reveal-delay="200"
             >
               <div className="tiles-item-inner rounded">
@@ -90,7 +90,7 @@ const Testimonial = ({ pushLeft }) => {
               </div>
             </div>
 
-            <div className="tiles-item reveal-from-bottom">
+            <div className="tiles-item reveal-from-left">
               <div className="tiles-item-inner rounded">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
@@ -112,7 +112,7 @@ const Testimonial = ({ pushLeft }) => {
               </div>
             </div>
 
-            <div
+            {/* <div
               className="tiles-item reveal-from-right"
               data-reveal-delay="200"
             >
@@ -137,7 +137,7 @@ const Testimonial = ({ pushLeft }) => {
                     </span>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
     </div>
   );
