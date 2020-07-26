@@ -19,8 +19,8 @@ const Careers = () => {
               <h3>Frontend Engineer</h3>
               <p>
                 <i>
-                  We’re an early-stage startup and have just finished the MVP phase. We closed
-                  our seed round two weeks ago. We need your help to work towards a full public release.
+                  We’re an early-stage startup and have just finished the MVP phase. We recently closed
+                  our seed round. We need your help to work towards a full public release.
                 </i>
               </p>
               <p>
@@ -28,39 +28,45 @@ const Careers = () => {
                   Reality Cards is a decentralized prediction market based on
                   NFTs (non-fungible tokens) on the Ethereum network.
                 </b>{" "}
-                Currently, the team consists of just us two co-founders.
-                We are looking to make our first hire.
+                Currently, the team consists of two co-founders and a community manager.
+                We are looking to make our first technical hire.
               </p>
               <p>
-                We’re starting a team to build the first iteration of our
-                decentralized platform. For the first version, we are looking to
-                rewrite the MVP to a new scalable infrastructure, after which we
-                have plans for new features and major improvements. The
-                development process will be continuous leading to rapidly
-                changing iterations.
+                Our vision: to become the biggest, best, and easiest to use prediction market on Ethereum. 
               </p>
               <p>
-                <b>We’re looking to hiring a frontend engineer who:</b>
+                Feel free to apply even if you don't have significant experience- enthusiasm for the project 
+                and a willingness to learn is more important than anything else. 
+              </p>
+              <p>
+                <b>We’re looking to hire a frontend engineer who:</b>
               </p>
               <ul>
                 <li>
-                  <b>Feels comfortable writing Javascript</b>
-                </li>
-                <li>
                   <b>
-                    Has experience in React (knowledge of hooks and good coding
-                    patterns is nice to have)
+                    Has experience in React (knowledge of hooks is nice to have)
                   </b>
                 </li>
                 <li>
                   <b>
-                    Is familiar with the Ethereum environment (nice to have but
+                    Is familiar with graphQL (nice to have but
                     not a strong requirement)
+                  </b>
+                </li>
+                <li>
+                  <b>
+                    Is familiar with the Ethereum environment
+                  </b>
+                </li>
+                
+                <li>
+                  <b>
+                    Believes Reality Cards is super cool :)
                   </b>
                 </li>
               </ul>
               <p>
-                <b>The position is full time, long term, and fully remote.</b>{" "}
+                <b>The position is full time, long term, and fully remote. Salary will be paid in DAI.</b>{" "}
               </p>
               <p>
                 <i>
