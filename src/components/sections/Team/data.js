@@ -16,6 +16,12 @@ export const team = {
       telegram: "https://t.me/vladmee",
       mail: "vlad@realitycards.io",
     },
+    {
+      image: require("./../../../assets/images/team/defidude.jpg"),
+      name: "DeFi Dude",
+      role: "Head of Community",
+      twitter: "https://twitter.com/DeFiDude",
+    },
   ],
   advisors: [
     {

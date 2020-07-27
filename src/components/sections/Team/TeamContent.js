@@ -72,8 +72,8 @@ const TeamContent = ({
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
           <div style={{ display: "flex", flexWrap: "wrap" }}>
-            <div style={{ flexGrow: 2 }}>
-              <h2 className="h2-small mt-0 mb-24">Founders</h2>
+            <div style={{ flexGrow: 3 }}>
+              <h2 className="h2-small mt-0 mb-24">Team members</h2>
               <div
                 style={{
                   display: "flex",

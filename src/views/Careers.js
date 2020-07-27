@@ -19,8 +19,9 @@ const Careers = () => {
               <h3>Frontend Engineer</h3>
               <p>
                 <i>
-                  We’re an early-stage startup and have just finished the MVP phase. We recently closed
-                  our seed round. We need your help to work towards a full public release.
+                  We’re an early-stage startup and have just finished the MVP
+                  phase. We recently closed our seed round. We need your help to
+                  work towards a full public release.
                 </i>
               </p>
               <p>
@@ -28,45 +29,44 @@ const Careers = () => {
                   Reality Cards is a decentralized prediction market based on
                   NFTs (non-fungible tokens) on the Ethereum network.
                 </b>{" "}
-                Currently, the team consists of two co-founders and a community manager.
-                We are looking to make our first technical hire.
+                Currently, the team consists of two co-founders and a community
+                manager. We are looking to make our first technical hire.
               </p>
               <p>
-                Our vision: to become the biggest, best, and easiest to use prediction market on Ethereum. 
+                Our vision: to become the biggest, best, and easiest to use
+                prediction market on Ethereum.
               </p>
               <p>
-                Feel free to apply even if you don't have significant experience- enthusiasm for the project 
-                and a willingness to learn is more important than anything else. 
+                Feel free to apply even if you don't have significant
+                experience- enthusiasm for the project and a willingness to
+                learn is more important than anything else.
               </p>
               <p>
                 <b>We’re looking to hire a frontend engineer who:</b>
               </p>
               <ul>
                 <li>
-                  <b>
-                    Has experience in React (knowledge of hooks is nice to have)
-                  </b>
+                  <b>Has experience in React</b>
                 </li>
                 <li>
                   <b>
-                    Is familiar with graphQL (nice to have but
-                    not a strong requirement)
+                    Is familiar with graphQL (nice to have but not a strong
+                    requirement)
                   </b>
                 </li>
                 <li>
-                  <b>
-                    Is familiar with the Ethereum environment
-                  </b>
+                  <b>Is familiar with the Ethereum environment</b>
                 </li>
-                
+
                 <li>
-                  <b>
-                    Believes Reality Cards is super cool :)
-                  </b>
+                  <b>Believes Reality Cards is super cool :)</b>
                 </li>
               </ul>
               <p>
-                <b>The position is full time, long term, and fully remote. Salary will be paid in DAI.</b>{" "}
+                <b>
+                  The position is full time, long term, and fully remote. Salary
+                  will be paid in DAI.
+                </b>{" "}
               </p>
               <p>
                 <i>
@@ -77,16 +77,19 @@ const Careers = () => {
               <p>In order to apply we need:</p>
               <ul>
                 <li>
-                  <b>Your CV</b> (can be informal aka personal website, linkedin)
+                  <b>Your CV</b> (can be informal aka personal website,
+                  linkedin)
                 </li>
                 <li>
                   <b>Your Github</b>
                 </li>
                 <li>
-                  <b>A paragraph</b> describing your previous experience (does not matter if it isn't much)
+                  <b>A paragraph</b> describing your previous experience (does
+                  not matter if it isn't much)
                 </li>
                 <li>
-                  A couple of UI/UX suggestions on how we could improve the current platform.
+                  A couple of UI/UX suggestions on how we could improve the
+                  current platform.
                 </li>
               </ul>
               <p>
