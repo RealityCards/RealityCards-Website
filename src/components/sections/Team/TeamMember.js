@@ -23,9 +23,18 @@ const TeamMember = ({ member }) => {
           <Image src={image} alt={name} width={164} height={164} />
         </div>
         <div className="testimonial-item-footer text-xs mt-0 mb-0 pt-0">
-          <span className="testimonial-item-name text-color-high">{name}</span>
-          <span className="text-color-low"> / </span>
-          <span className="testimonial-item-link">{role}</span>
+          <span
+            className="testimonial-item-name text-color-high mb-2"
+            style={{ display: "block" }}
+          >
+            {name}
+          </span>
+          {/* <span className="text-color-low"> / </span> */}
+          <span
+            className="testimonial-item-link"
+            style={{ display: "block" }}
+            dangerouslySetInnerHTML={{ __html: role }}
+          />
           <div className={classes}>
             <ul className="list-reset">
               {linkedin && (
@@ -36,7 +45,7 @@ const TeamMember = ({ member }) => {
                       focusable="false"
                       data-prefix="fab"
                       data-icon="linkedin"
-                      class="svg-inline--fa fa-linkedin fa-w-14"
+                      className="svg-inline--fa fa-linkedin fa-w-14"
                       role="img"
                       viewBox="0 0 448 512"
                       height="16"
@@ -86,7 +95,7 @@ const TeamMember = ({ member }) => {
                       focusable="false"
                       data-prefix="fas"
                       data-icon="envelope"
-                      class="svg-inline--fa fa-envelope fa-w-16"
+                      className="svg-inline--fa fa-envelope fa-w-16"
                       role="img"
                       viewBox="0 0 512 512"
                       height="16"

@@ -3,7 +3,7 @@ export const team = {
     {
       image: require("./../../../assets/images/team/andrew.jpeg"),
       name: "Andrew Stanger",
-      role: "Co-Founder",
+      role: "Co-Founder and CEO",
       linkedin: "https://www.linkedin.com/in/andrewstanger1/",
       telegram: "https://t.me/andrewstanger",
       mail: "andrew@realitycards.io",
@@ -11,7 +11,7 @@ export const team = {
     {
       image: require("./../../../assets/images/team/vlad.jpg"),
       name: "Vlad Micliuc",
-      role: "Co-Founder",
+      role: "Co-Founder and CTO",
       linkedin: "https://www.linkedin.com/in/vladmicliuc/",
       telegram: "https://t.me/vladmee",
       mail: "vlad@realitycards.io",
@@ -27,7 +27,8 @@ export const team = {
     {
       image: require("./../../../assets/images/team/patricio.jpeg"),
       name: "Patricio Worthalter",
-      role: "Advisor",
+      role:
+        "Founder of <a href='https://www.poap.xyz/' class='no-style-href' target='_blank' rel='noopener noreferrer'>POAP Protocol</>",
       linkedin: "https://www.linkedin.com/in/worthalter/",
       telegram: "https://t.me/patricioworthalter",
     },
