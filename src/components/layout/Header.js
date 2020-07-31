@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import classNames from "classnames";
 import { Link } from "react-router-dom";
 import Logo from "./partials/Logo";
+import ThemeSwitcher from "./ThemeSwitcher";
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -150,6 +151,9 @@ const Header = ({
                           </svg>{" "}
                           Join on Discord
                         </a>
+                      </li>
+                      <li className="switch-wrapper">
+                        <ThemeSwitcher />
                       </li>
                     </ul>
                   )}

@@ -80,14 +80,13 @@ $icon--color: (
   // accordion icon
     social-inverse: null,
   // social icons
-    social-hover-inverse: null // social icons (:hover),,,,,,
+    social-hover-inverse: null // social icons (:hover),,,,,,,
 );
 
 $bg--gradient: linear-gradient(90deg, #000, rgba(0, 0, 0, 0.6));
 
 // Misc elements: background color
 $bg--color: (
-  body: $bg--gradient,
   body-shadow: 0 20px 48px rgba(get-color(dark, 1), 0.8),
   // body shadow when a boxed layout is used (set to null if don't want a shadow)
     body-outer: lighten(get-color(dark, 1), 2%),
