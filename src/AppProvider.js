@@ -64,6 +64,13 @@ const GlobalStyles = createGlobalStyle`
             .testimonial-item-name.text-color-high {
                 color: ${theme.colors.testimonialName};
             }
+            .testimonial-item-link a:not(.button) {
+                color: #1cb68b;
+
+                &:hover {
+                    color: #73efcc;
+                }
+            }
             .theme-switcher {
                 background: ${theme.colors.switchBg};
 
