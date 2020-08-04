@@ -6,28 +6,25 @@ const Testimonial = ({ pushLeft }) => {
 
   return (
     <div className={tilesClasses}>
+      <div className="tiles-item reveal-from-left" data-reveal-delay="200">
+        <div className="tiles-item-inner rounded">
+          <div className="testimonial-item-content">
+            <p className="text-sm mb-0">
+              — Probably one of the coolest prediction market platforms I’ve
+              seen to date
+            </p>
+          </div>
+          <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
+            <span className="testimonial-item-name text-color-high">
+              Ryan Sean Adams
+            </span>
+            <span className="text-color-low"> / </span>
+            <span className="testimonial-item-link">Editor- Bankless</span>
+          </div>
+        </div>
+      </div>
 
-      <div
-              className="tiles-item reveal-from-left"
-              data-reveal-delay="200"
-            >
-              <div className="tiles-item-inner rounded">
-                <div className="testimonial-item-content">
-                  <p className="text-sm mb-0">
-                    — Probably one of the coolest prediction market platforms I’ve seen to date
-                  </p>
-                </div>
-                <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">
-                    Ryan Sean Adams
-                  </span>
-                  <span className="text-color-low"> / </span>
-                  <span className="testimonial-item-link">Editor- Bankless</span>
-                </div>
-              </div>
-            </div>
-
-            {/* <div className="tiles-item reveal-from-bottom">
+      {/* <div className="tiles-item reveal-from-bottom">
               <div className="tiles-item-inner rounded">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
@@ -66,31 +63,45 @@ const Testimonial = ({ pushLeft }) => {
               </div>
             </div> */}
 
-            <div
-              className="tiles-item reveal-from-bottom"
-              data-reveal-delay="200"
-            >
-              <div className="tiles-item-inner rounded">
-                <div className="testimonial-item-content">
-                  <p className="text-sm mb-0">
-                    — Traditionally you'd place the bet and forget. On Reality
-                    Cards I've found myself checking if I still have ownership
-                    or do I need to increase the rent. It's kinda like a lottery
-                    dangling a prize in front of you but you have the ability to
-                    keep increasing your stake.
-                  </p>
-                </div>
-                <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">
-                    Daniel Chilvers
-                  </span>
-                  <span className="text-color-low"> / </span>
-                  <span className="testimonial-item-link">Engineer</span>
-                </div>
-              </div>
-            </div>
+      <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
+        <div className="tiles-item-inner rounded">
+          <div className="testimonial-item-content">
+            <p className="text-sm mb-0">
+              — Traditionally you'd place the bet and forget. On Reality Cards
+              I've found myself checking if I still have ownership or do I need
+              to increase the rent. It's kinda like a lottery dangling a prize
+              in front of you but you have the ability to keep increasing your
+              stake.
+            </p>
+          </div>
+          <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
+            <span className="testimonial-item-name text-color-high">
+              Daniel Chilvers
+            </span>
+            <span className="text-color-low"> / </span>
+            <span className="testimonial-item-link">Engineer</span>
+          </div>
+        </div>
+      </div>
 
-            <div className="tiles-item reveal-from-left">
+      <div className="tiles-item reveal-from-right" data-reveal-delay="200">
+        <div className="tiles-item-inner rounded">
+          <div className="testimonial-item-content">
+            <p className="text-sm mb-0">
+              — The more I think about it, the more I like it!
+            </p>
+          </div>
+          <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
+            <span className="testimonial-item-name text-color-high">
+              Dennison Bertram
+            </span>
+            <span className="text-color-low"> / </span>
+            <span className="testimonial-item-link">DappHero</span>
+          </div>
+        </div>
+      </div>
+
+      {/* <div className="tiles-item reveal-from-left">
               <div className="tiles-item-inner rounded">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
@@ -110,9 +121,9 @@ const Testimonial = ({ pushLeft }) => {
                   <span className="testimonial-item-link">Data Scientist</span>
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            {/* <div
+      {/* <div
               className="tiles-item reveal-from-right"
               data-reveal-delay="200"
             >
@@ -138,7 +149,6 @@ const Testimonial = ({ pushLeft }) => {
                     </div>
                 </div>
             </div> */}
-
     </div>
   );
 };

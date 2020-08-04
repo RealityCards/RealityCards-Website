@@ -1,7 +1,7 @@
 export const team = {
   founders: [
     {
-      image: require("./../../../assets/images/team/andrew.jpeg"),
+      image: require("./../../../assets/images/team/andrew.jpg"),
       name: "Andrew",
       role: "Co-Founder and CEO",
       linkedin: "https://www.linkedin.com/in/andrewstanger1/",
