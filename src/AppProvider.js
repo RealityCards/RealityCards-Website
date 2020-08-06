@@ -16,6 +16,8 @@ const theme = {
       switchBulb: "#222",
       nav: "#222",
       navHover: "#9ca9b3",
+      buttonDarkColor: "#eceded",
+      buttonDarkBg: "#25282c",
     },
     transition: "0.3s",
   },
@@ -31,6 +33,8 @@ const theme = {
       switchBulb: "rgb(255, 255, 144)",
       nav: "#9ca9b3",
       navHover: "#eceded",
+      buttonDarkColor: "#25282c",
+      buttonDarkBg: "white",
     },
     transition: "0.3s",
   },
@@ -84,6 +88,20 @@ const GlobalStyles = createGlobalStyle`
                 &:hover {
                     color: ${theme.colors.navHover};
                 }
+            }
+            .button-dark {
+              color: ${theme.colors.buttonDarkColor};
+              background-color: ${theme.colors.buttonDarkBg};
+
+              &:hover {
+                background-color: ${theme.colors.buttonDarkBg};
+              }
+
+              svg {
+                path {
+                  fill: ${theme.colors.buttonDarkColor};
+                }
+              }
             }
       }
     `}
