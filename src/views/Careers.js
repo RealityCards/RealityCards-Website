@@ -20,7 +20,11 @@ const Careers = () => {
                 Currently we don't have any open positions but if you are
                 interested in possible future opportunities please send your CV
                 to <b>careers@realitycards.io</b> or stay in touch on our{" "}
-                <a href="https://discord.gg/RS8pYJu" target="_blank">
+                <a
+                  href="https://discord.gg/RS8pYJu"
+                  target="_blank"
+                  className="text-primary"
+                >
                   <b>discord channel</b>
                 </a>
                 .
