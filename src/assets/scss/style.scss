@@ -247,3 +247,7 @@
     fill: white;
   }
 }
+
+.text-primary {
+  color: get-color(primary, 1) !important;
+}
