@@ -6,7 +6,7 @@ if [ $TRAVIS_BRANCH == 'master' ] ; then
   ssh-add
   CI=false npm run build
   rsync -rq --delete --rsync-path="mkdir -p website && rsync" \
-  $TRAVIS_BUILD_DIR/public travis@134.122.107.221:website
+  $TRAVIS_BUILD_DIR/build travis@134.122.107.221:../../var/www/travis
 else
   echo "Not deploying, since this branch isn't master."
 fi
