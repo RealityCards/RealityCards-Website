@@ -62,16 +62,16 @@ const Hero = ({
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 small" data-reveal-delay="400">
-                Reality Cards is currently in closed beta and an access token is
-                required. Please join our{" "}
+                Reality Cards is currently in closed beta. To learn more about
+                the project please join our{" "}
                 <a
                   href="https://discord.gg/RS8pYJu"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   discord group
-                </a>{" "}
-                and ask one of the team members for one.
+                </a>
+                .
               </p>
               <div>
                 <ButtonGroup>
