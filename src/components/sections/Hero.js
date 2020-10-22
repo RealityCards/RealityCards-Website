@@ -78,7 +78,7 @@ const Hero = ({
                   <Button
                     tag="a"
                     className="button button-primary button-wide-mobile button-sm"
-                    href="https://app.realitycards.io"
+                    href="https://xdai.realitycards.io"
                   >
                     Visit DApp
                   </Button>

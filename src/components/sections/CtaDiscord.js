@@ -49,7 +49,7 @@ const CtaDiscord = ({
             <h3 className="m-0">Get access to the closed beta</h3>
             <p className="small text-white">
               If you already have your access token, click{" "}
-              <a href="https://app.realitycards.io">here</a>. Otherwise, please
+              <a href="https://xdai.realitycards.io">here</a>. Otherwise, please
               join our discord group and message a team member for a unique
               access token.
             </p>

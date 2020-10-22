@@ -129,7 +129,7 @@ const Header = ({
                       <li>
                         <Button
                           tag="a"
-                          href="https://app.realitycards.io"
+                          href="https://xdai.realitycards.io"
                           className="button button-primary button-wide-mobile button-sm"
                           onClick={closeMenu}
                         >

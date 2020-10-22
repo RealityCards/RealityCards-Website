@@ -83,6 +83,12 @@ export const faqs = [
       "<p>Of course! The contract keeps track of how many seconds you have owned each Card. It does not matter when you owned the Card. All that matters is how long you owned the Card for. Indeed, it is a good thing if this happens- if someone takes the card off you, your % return will increase, because the only way they can do so is by paying a higher rental price than you.</p>",
   },
   {
+    header:
+      "What happens to the NFTs after the end of the event?",
+    body:
+      "<p>In the MVP, nothing happens- but for our V1 release, the winning Card will be automatically transferred to the winner- as defined by owning the winning outcome for the longest period of time. Thus, after the event has ended, the Card becomes a collectable. Losing Cards will be burnt.</p>",
+  },
+  {
     header: "How do Estimated Winnings work?",
     body:
       "<p>Estimated winnings are given when you rent a card, and in the 'My Cards' section. These are estimated because actual winnings depend on future rental prices, which cannot be known in advance. Thus, the estimated winnings calculation assumes that the sum of rental prices of all Cards for that market remain the same until the end of the event. If rental prices in the future are greater, your winnings will be higher than the estimate given, if they are lower your winnings will be lower.<br/><br/>If someone takes the Card off you before your deposit is used, your % return will be higher, because the rental price of the Card will have increased (that is the only way they can take it off you). However, since you owned the card for less time than originally estimated, your actual winnings may be lower. </p>",
@@ -91,13 +97,13 @@ export const faqs = [
     header:
       "I am currently renting a Card, and wish to send it to someone else, how do I do this?",
     body:
-      "<p>This is not possible. Before the event being bet on has taken place, only the contract itself can change ownership of the Card. However, when the event has occurred, you are free to transfer the Card to another address using any NFT/ERC721 wallet.</p>",
+      "<p>This is not possible. Before the event being bet on has taken place, only the contract itself can change ownership of the Card. However, when the event has occurred, you are free to transfer the Card to another address using any NFT/ERC721 wallet- but only if you are the winner! The winner gets to keep the Card at the end of the event.</p>",
   },
   {
     header:
       "Does it make any difference if I own the Card at the end of the event/if I am the last owner of the Card?",
     body:
-      "<p>It does not make any difference to your winnings- however, after the event has finished, it is also not possible for anyone else to take the Card off you- therefore, whoever owns it at the end will be the final owner, allowing you to proudly display the Card in your NFT wallet for the rest of your days (unless you decide to transfer it to someone else, of course).</p>",
+      "<p>It does not make any difference. In the current MVP, Cards remain with the final owner forever, however for our main release, when the oracle resolves, the winning Card will be automatically transferred to the winner- as defined by owning the winning outcome for the longest period of time. Thus, after the event has ended, the Card becomes a collectable. Losing Cards will be burnt.</p>",
   },
   {
     header: "Are there any limits on prices/deposits etc?",
