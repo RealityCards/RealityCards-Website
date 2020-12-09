@@ -113,7 +113,7 @@ const Hero = ({
             data-reveal-value="20px"
           >
             <a
-              data-video="https://youtu.be/MmRYznJiHlA"
+              data-video="https://youtu.be/PX7mfeZzAY4"
               href="#0"
               aria-controls="video-modal"
               onClick={openModal}
@@ -130,7 +130,7 @@ const Hero = ({
           <ModalVideo
             channel="youtube"
             isOpen={videoModalActive}
-            videoId="MmRYznJiHlA"
+            videoId="PX7mfeZzAY4"
             onClose={closeModal}
           />
         </div>
