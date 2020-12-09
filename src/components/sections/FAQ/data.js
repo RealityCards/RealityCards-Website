@@ -86,7 +86,7 @@ export const faqs = [
     header:
       "What happens to the NFTs after the end of the event?",
     body:
-      "<p>In the MVP, nothing happens- but for our V1 release, the winning Card will be automatically transferred to the winner- as defined by owning the winning outcome for the longest period of time. Thus, after the event has ended, the Card becomes a collectable. Losing Cards will be burnt.</p>",
+      "<p>In the MVP, nothing happens- but for our V1 release, the winning Card will be automatically transferred to the winner- as defined by owning the winning outcome for the longest period of time. Thus, after the event has ended, the Card becomes a collectable.</p>",
   },
   {
     header: "How do Estimated Winnings work?",
@@ -103,12 +103,12 @@ export const faqs = [
     header:
       "Does it make any difference if I own the Card at the end of the event/if I am the last owner of the Card?",
     body:
-      "<p>It does not make any difference. In the current MVP, Cards remain with the final owner forever, however for our main release, when the oracle resolves, the winning Card will be automatically transferred to the winner- as defined by owning the winning outcome for the longest period of time. Thus, after the event has ended, the Card becomes a collectable. Losing Cards will be burnt.</p>",
+      "<p>It does not make any difference. In the current MVP, Cards remain with the final owner forever, however for our main release, when the oracle resolves, each Card will be automatically transferred to whoever held it the longest.</p>",
   },
   {
     header: "Are there any limits on prices/deposits etc?",
     body:
-      "<p>Yes, there are three:<ol><li>The minimum daily rental price is 1 DAI.</li><li>To take a Card off an existing owner, you must set a daily rental price at least 10% above what the current owner is paying.</li><li>You must deposit enough DAI to fund at least one hour’s rent (i.e. the daily rental price you have chosen, divided by 24).</li></ol></p>",
+      "<p>Yes, there are three:<ol><li>The minimum daily rental price is 1 DAI.</li><li>To take a Card off an existing owner, you must set a daily rental price at least 10% above what the current owner is paying.</li><li>You must deposit enough DAI to fund at least one hour’s rent (i.e. the daily rental price you have chosen, divided by 24). In v1, this one hour minimum will be reduced to one minute.</li></ol></p>",
   },
   {
     header:
@@ -130,7 +130,7 @@ export const faqs = [
   {
     header: "Are there any fees?",
     body:
-      "<p>No- 100% of the rent is returned to users in the form of winnings.</p>",
+      "<p>No- 100% of the rent is returned to users in the form of winnings. In v1, at the market creator's discretion, it will be possible to give some share of the pot to the NFT artist.</p>",
   },
   {
     header: "How does Reality Cards make money?",
@@ -154,13 +154,13 @@ export const faqs = [
   {
     header: "What is the Reality Cards governance token (RC) used for?",
     body:
-      "<p>The token will have the following uses:<ul><li>Project governance</li><li>Final layer of outcome resolution if there are continued disputes</li><li>Required to create markets (helps to limit spam, duplicate markets etc.)</li><li>Incentivise platform use via liquidity mining</li></ul></br>It will not be necessary to own tokens to interact with existing markets, to rent tokens, etc.</p>",
+      "<p>The token will have the following uses:<ul><li>Project governance</li><li>Final layer of outcome resolution if there are continued disputes</li><li>Market curation</li><li>Incentivise platform use via liquidity mining</li></ul></br>It will not be necessary to own tokens to interact with existing markets, to rent tokens, etc.</p>",
   },
   {
     header:
       "What is the allocation of the Reality Cards governance token (RC)?",
     body:
-      "<p>Token allocation:<ol><li>Founders/advisors: 25%</li><li>Project Treasury: 25%</li><li>Private & public sales and/or liquidity mining: 50%</li></ol>Tokens allocated to the Project Treasury can only be used with majority approval of existing token holders. There is also a two year vesting period, from the date of the TGE (Token Generation Event), for founders, advisors, and investors (20% initially available, then 20% vesting each six months).<br><br>'Liquidity mining' refers to the allocation of RC tokens to everyone who rents tokens, a growth model used to great success by existing defi platforms such as Balancer and Compound.</p>",
+      "<p>Token allocation:<ol><li>Founders/advisors: 25%</li><li>Project Treasury: 25%</li><li>Private & public sales and/or liquidity mining: 50%</li></ol>Tokens allocated to the Project Treasury can only be used with majority approval of existing token holders.<br><br>'Liquidity mining' refers to the allocation of RC tokens to everyone who rents tokens, a growth model used to great success by existing defi platforms such as Balancer and Compound.</p>",
   },
   {
     header:

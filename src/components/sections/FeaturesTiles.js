@@ -1,9 +1,9 @@
-import React from "react";
-import classNames from "classnames";
-import { SectionTilesProps } from "../../utils/SectionProps";
-import SectionHeader from "./partials/SectionHeader";
-import Image from "../elements/Image";
-import { Link } from "react-router-dom";
+import React from 'react';
+import classNames from 'classnames';
+import { SectionTilesProps } from '../../utils/SectionProps';
+import SectionHeader from './partials/SectionHeader';
+import Image from '../elements/Image';
+import { Link } from 'react-router-dom';
 
 const propTypes = {
   ...SectionTilesProps.types,
@@ -24,27 +24,27 @@ const FeaturesTiles = ({
   ...props
 }) => {
   const outerClasses = classNames(
-    "features-tiles section",
-    topOuterDivider && "has-top-divider",
-    bottomOuterDivider && "has-bottom-divider",
-    hasBgColor && "has-bg-color",
-    invertColor && "invert-color",
+    'features-tiles section',
+    topOuterDivider && 'has-top-divider',
+    bottomOuterDivider && 'has-bottom-divider',
+    hasBgColor && 'has-bg-color',
+    invertColor && 'invert-color',
     className
   );
 
   const innerClasses = classNames(
-    "features-tiles-inner section-inner",
-    topDivider && "has-top-divider",
-    bottomDivider && "has-bottom-divider"
+    'features-tiles-inner section-inner',
+    topDivider && 'has-top-divider',
+    bottomDivider && 'has-bottom-divider'
   );
 
   const tilesClasses = classNames(
-    "tiles-wrap center-content",
-    pushLeft && "push-left"
+    'tiles-wrap center-content',
+    pushLeft && 'push-left'
   );
 
   const sectionHeader = {
-    title: "Roadmap 2020-2021",
+    title: 'Roadmap 2020-2021',
   };
 
   return (
@@ -58,7 +58,7 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require("./../../assets/images/feature-tile-icon-01.svg")}
+                      src={require('./../../assets/images/feature-tile-icon-01.svg')}
                       alt="Features tile icon 01"
                       width={64}
                       height={64}
@@ -89,7 +89,7 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require("./../../assets/images/feature-tile-icon-02.svg")}
+                      src={require('./../../assets/images/feature-tile-icon-02.svg')}
                       alt="Features tile icon 02"
                       width={64}
                       height={64}
@@ -100,9 +100,9 @@ const FeaturesTiles = ({
                   <h5 className="mt-0 mb-0">Phase 1</h5>
                   <h4 className="text-color-primary mt-0 mb-8">v1 Launch</h4>
                   <p className="m-0 text-sm text-left">
-                    • Gamification (leaderboards)
-                    <br />• Integration with 3Box, TheGraph
-                    <br />• Notifications system
+                    • Complete redesign
+                    <br />• Gamification (leaderboards)
+                    <br />• Integration with TheGraph
                     <br />• (and more)
                   </p>
                   <h5 className="small mb-0">ETA: late 2020</h5>
@@ -118,7 +118,7 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require("./../../assets/images/feature-tile-icon-06.svg")}
+                      src={require('./../../assets/images/feature-tile-icon-06.svg')}
                       alt="Features tile icon 03"
                       width={64}
                       height={64}
@@ -127,11 +127,13 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h5 className="mt-0 mb-0">Phase 2</h5>
-                  <h4 className="text-color-primary mt-0 mb-8">v2 Launch</h4>
+                  <h4 className="text-color-primary mt-0 mb-8">
+                    Public Launch
+                  </h4>
                   <p className="m-0 text-sm text-left">
-                    • Allow users to create their own markets
+                    • New event types
+                    <br />• Allow users to create their own events
                     <br />• Reality Cards governance token
-                    <br />• Liquidity mining
                   </p>
                   <h5 className="small mb-0">ETA: 2021</h5>
                 </div>
@@ -140,7 +142,7 @@ const FeaturesTiles = ({
           </div>
           <div className="text-center reveal-from-bottom">
             <p>
-              Have more questions? Check our 33 points{" "}
+              Have more questions? Check our 33 points{' '}
               <Link to="/faq">FAQ page</Link>
             </p>
           </div>
