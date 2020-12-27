@@ -12,17 +12,12 @@ export const faqs = [
   {
     header: "How do I rent a Card?",
     body:
-      "<p>The prices given for each Card on Reality Cards are the daily rental prices in xDai. In order to rent a Card, you must have Metamask installed and unlocked, and set to the xDai chain. You must own some xDai. To rent a Card:<ul><li>Choose the daily rental price you wish to pay</li><li>Choose how much xDai you wish to deposit to fund the rent</li><li>Press ‘Rent Card’</li></ul></p>.",
-  },
-  {
-    header: "What is Metamask? What is xDAI?",
-    body:
-      "<p>Metamask is a browser extension that allows websites to interact with the Ethereum blockchain, and gives users an in-browser Ethereum wallet. xDai is the native token of the xDai chain that Reality Cards runs on, and is pegged to Dai, which in turn is pegged to USD.</p>",
+      "<p>The prices given for each Card on Reality Cards are the daily rental prices in xDai. In order to rent a Card, you must have Metamask installed and unlocked, and set to the xDai chain (see <a href='https://medium.com/reality-cards/reality-cards-is-live-on-xdai-5348de9fc8fc'>here</a> for instructions). You must own some xDai. To rent a Card:<ul><li>Choose the daily rental price you wish to pay</li><li>Choose how much xDai you wish to deposit to fund the rent</li><li>Press ‘Rent Card’</li></ul></p>",
   },
   {
     header: "How do I use and obtain xDai?",
     body:
-      "<p>Please see: <a href='https://medium.com/reality-cards/reality-cards-is-live-on-xdai-5348de9fc8fc'>here</a></p>",
+      "<p>Please see <a href='https://medium.com/reality-cards/reality-cards-is-live-on-xdai-5348de9fc8fc'>here</a>.</p>",
   },
   {
     header: "Do you support wallets other than Metamask?",
