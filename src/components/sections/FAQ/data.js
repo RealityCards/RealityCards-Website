@@ -7,22 +7,27 @@ export const faqs = [
   {
     header: "What does it mean to own an outcome?",
     body:
-      "<p>Each outcome is represented by a unique Non Fungible Token (NFT). In order to ‘bet’ on an outcome, you purchase the corresponding NFT. For example, if the event is “Who will win the 2020 US General Election” and you think Donald Trump will win, you purchase the ‘Donald Trump’ NFT. Only one person can own a token/outcome at any time. The NFTs are referred to as Cards throughout the site and this FAQ.</p>",
+      "<p>Each outcome is represented by a unique Non Fungible Token (NFT). In order to ‘bet’ on an outcome, you rent the corresponding NFT. For example, if the event is “Which team will win the Premier League” and you think Liverpool will win, you rent the ‘Liverpool’ NFT. Only one person can own a token/outcome at any time. The NFTs are referred to as Cards throughout the site and this FAQ.</p>",
   },
   {
-    header: "How do I buy a Card?",
+    header: "How do I rent a Card?",
     body:
-      "<p>Cards can not be bought, only rented. The prices given for each Card on Reality Cards are the daily rental prices in DAI. In order to rent a Card, you must have Metamask installed and unlocked, and you must own some DAI (and some Ether for the gas fee). To rent a Card:<ul><li>Choose the daily rental price you wish to pay</li><li>Choose how much DAI you wish to deposit to fund the rent</li><li>Press ‘Rent Card’</li></ul></p>",
+      "<p>The prices given for each Card on Reality Cards are the daily rental prices in xDai. In order to rent a Card, you must have Metamask installed and unlocked, and set to the xDai chain. You must own some xDai. To rent a Card:<ul><li>Choose the daily rental price you wish to pay</li><li>Choose how much xDai you wish to deposit to fund the rent</li><li>Press ‘Rent Card’</li></ul></p>.",
   },
   {
-    header: "What is Metamask? What is DAI?",
+    header: "What is Metamask? What is xDAI?",
     body:
-      "<p>Metamask is a browser extension that allows websites to interact with the Ethereum blockchain, and gives users an in-browser Ethereum wallet. DAI is a cryptocurrency pegged to the US Dollar.</p>",
+      "<p>Metamask is a browser extension that allows websites to interact with the Ethereum blockchain, and gives users an in-browser Ethereum wallet. xDai is the native token of the xDai chain that Reality Cards runs on, and is pegged to Dai, which in turn is pegged to USD.</p>",
+  },
+  {
+    header: "How do I use and obtain xDai?",
+    body:
+      "<p>Please see: <a href='https://medium.com/reality-cards/reality-cards-is-live-on-xdai-5348de9fc8fc'>here</a></p>",
   },
   {
     header: "Do you support wallets other than Metamask?",
     body:
-      "<p>Not at this time, however it is near the top of our to-do list :)</p>",
+      "<p>Not in our MVP. Our v1 public release will allow multiple wallets.</p>",
   },
   {
     header: "What if I want to rent a Card but someone else already owns it?",
@@ -37,29 +42,29 @@ export const faqs = [
   {
     header: "How do winnings work? What can I win by owning Cards?",
     body:
-      "<p>At the end of the event, all the rent paid among all the Cards is distributed to all the owners of the winning Card, in proportion to how long they have owned it. This is another key difference between Reality Cards and other prediction markets. It is irrelevant how much rent you have paid- all that matters is how long you have owned the winning Card.<br/><br/>For example: consider the event “Who will win the 2020 US General Election” and assume there are two Cards: Trump and Biden (the actual market has three cards, we are assuming two for simplicity).<br/><br/>Assume also that the event is open a total of 3 months:<ul><li>Alice pays 100 DAI to rent Trump for one month</li><li>Bob pays 900 DAI to rent Trump for two months</li><li>Charlie pays 2000 DAI to rent Biden for three months</li></ul></br>It’s election time- Trump wins. Total rent paid was 3000 DAI. Alice owned the winning Card (Trump) for one month out of a total three- therefore, she will win one third of the total rent- 1000 DAI. Bob will win 2000 DAI and Charlie, having rented the losing card, will not win anything.</p>",
+      "<p>At the end of the event, all the rent paid among all the Cards is distributed to all the owners of the winning Card, in proportion to how long they have owned it. This is another key difference between Reality Cards and other prediction markets. It is irrelevant how much rent you have paid- all that matters is how long you have owned the winning Card.<br/><br/>For example: consider the event “Will ETH make a new All Time High by X date” and assume there are two Cards: Yes and No. <br/><br/>Assume also that the event is open a total of 3 months:<ul><li>Alice pays 100 xDai to rent 'Yes' for one month</li><li>Bob pays 900 xDai to rent 'Yes' for two months</li><li>Charlie pays 2000 xDai to rent 'No' for three months</li></ul></br>The event ends, ETH does make a new ATH, the 'Yes' Card wins. Total rent paid was 3000 xDai. Alice owned the winning Card (Yes) for one month out of a total three- therefore, she will win one third of the total rent- 1000 xDai. Bob will win 2000 xDai and Charlie, having rented the losing card, will not win anything.</p>",
   },
   {
     header: "What is the deposit?",
     body:
-      "<p>The deposit is how much DAI is actually sent to the contract. Rent will gradually be taken out of your deposit balance as time passes.<br/><br/>For example: you rent a Card at a daily rental price of 24 DAI (or, 1 DAI per hour), and you deposit 4 DAI. After one hour, you will have paid 1 DAI in rent, and will have 3 DAI deposit remaining. After a total of four hours, your entire deposit will be used up, and you will lose ownership of the Card.<br/><br/>Each Card has a seperate deposit balance, it is not pooled among multiple Cards. It is possible for you to run out of deposit and lose ownership of one Card whilst still having a deposit balance remaining on a different Card.</p>",
+      "<p>The deposit is how much xDai is actually sent to the contract. Rent will gradually be taken out of your deposit balance as time passes.<br/><br/>For example: you rent a Card at a daily rental price of 24 xDai (or, 1 xDai per hour), and you deposit 4 xDai. After one hour, you will have paid 1 xDai in rent, and will have 3 xDai deposit remaining. After a total of four hours, your entire deposit will be used up, and you will lose ownership of the Card.<br/><br/>Each Card has a seperate deposit balance, it is not pooled among multiple Cards. It is possible for you to run out of deposit and lose ownership of one Card whilst still having a deposit balance remaining on a different Card.</p>",
   },
   {
     header: "Can I withdraw my deposit?",
     body:
-      "<p>Yes, you are free to withdraw any unused deposit (that is, deposit that has not been used to pay rent) whenever you wish. There is one exception: if you have owned a Card for less than one hour, your withdrawal will be limited to ensure that you have enough left to own the Card for one hour.<br/><br/>For example: the daily rental price is 24 DAI, or 1 DAI per hour. You have owned the Card for 45 minutes, and have 5 DAI deposit remaining. You wish to withdraw your entire deposit. You will only be able to withdraw 4.75 DAI, 0.25 DAI will be left, as this is the cost of owning the Card for another 15 minutes.</p>",
+      "<p>Yes, you are free to withdraw any unused deposit (that is, deposit that has not been used to pay rent) whenever you wish.</p>",
   },
   {
     header:
       "If someone else takes the Card off me by paying a higher daily rental, is my unused deposit automatically returned?",
     body:
-      "<p>No. Deposit withdrawals must be requested manually. The reason for this mechanic is so you will automatically own the Card again in the future if the new owner’s deposit runs out. You can easily see in the ‘My Cards’ page which Cards have a deposit balance left. The one hour minimum deposit mentioned in the previous question does not apply if you are not the current owner. If you are not the current owner, you are always able to withdraw your entire deposit.</p>",
+      "<p>No. Deposit withdrawals must be requested manually. The reason for this mechanic is so you will automatically own the Card again in the future if the new owner’s deposit runs out. You can easily see in the ‘My Cards’ page which Cards have a deposit balance left.</p>",
   },
   {
     header:
       "What happens if my deposit runs out, or I withdraw all my deposit?",
     body:
-      "<p>Card ownership will then automatically revert to whoever owned the Card before you, at the price they were previously paying (i.e., the daily rental price will drop). If the previous owner has zero deposit, the process is repeated, until a previous owner with a deposit remaining is found. If there are no such previous owners, the Card becomes unowned and the price is reset to zero.</p>",
+      "<p>Card ownership will then automatically revert to whoever owned the Card before you, at the price they were previously paying (i.e., the daily rental price will drop). If the previous owner has zero deposit, the process is repeated, until a previous owner with a deposit remaining is found. If there are no such previous owners, the Card becomes unowned and the price is reset to zero. In our v1 public release a full list of previous owners will be visible, so you can see who will own each Card again in the future, assuming no further activity.</p>",
   },
   {
     header: "How do I withdraw my winnings if I win?",
@@ -108,7 +113,7 @@ export const faqs = [
   {
     header: "Are there any limits on prices/deposits etc?",
     body:
-      "<p>Yes, there are three:<ol><li>The minimum daily rental price is 1 DAI.</li><li>To take a Card off an existing owner, you must set a daily rental price at least 10% above what the current owner is paying.</li><li>You must deposit enough DAI to fund at least one hour’s rent (i.e. the daily rental price you have chosen, divided by 24). In v1, this one hour minimum will be reduced to one minute.</li></ol></p>",
+      "<p>Yes, there are three:<ol><li>The minimum daily rental price is 1 xDai.</li><li>To take a Card off an existing owner, you must set a daily rental price at least 10% above what the current owner is paying.</li><li>You must deposit enough xDai to fund at least one minute's rent (i.e. the daily rental price you have chosen, divided by 1440). In v1, this one hour minimum will be reduced to one minute.</li></ol></p>",
   },
   {
     header:
@@ -125,7 +130,7 @@ export const faqs = [
   {
     header: "Can I create a new market/event myself?",
     body:
-      "<p>This is not currently possible, but is on our roadmap. Allowing users to create their own markets is an important feature of a decentralised prediction market, so we will be adding this functionality as soon as possible.</p>",
+      "<p>This is not possible in the MVP, but will be possible in the v1 public release.</p>",
   },
   {
     header: "Are there any fees?",
@@ -139,7 +144,7 @@ export const faqs = [
   {
     header: "Is the code open source?",
     body:
-      "<p>Yes, the github is <a href='https://github.com/RealityCards' target='_blank'>here</a> and all the contracts are verified on Etherscan.</p>",
+      "<p>It is currently closed source. We will open source the contracts, and verify them on block explorers, upon release of our public version. We will not be open sourcing our frontend.</p>",
   },
   {
     header: "Has it been audited?",
