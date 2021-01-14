@@ -11,7 +11,7 @@ branches:
 cache: npm
 addons:
   ssh_known_hosts:
-    - 165.232.46.140
+    - 104.248.166.92
 before_install:
   - openssl aes-256-cbc -K $encrypted_0ddd2445e49f_key -iv $encrypted_0ddd2445e49f_iv
     -in travis_rsa.enc -out travis_rsa -d
