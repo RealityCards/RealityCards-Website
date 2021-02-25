@@ -2,27 +2,27 @@ export const faqs = [
   {
     header: "What is Reality Cards?",
     body:
-      "<p>Reality Cards is the world's first NFT-based prediction market.<br><br>It is completely different from existing prediction markets (Augur, Gnosis Sight/Omen, Flux etc.) in that instead of betting on an outcome, you <i>own</i> it. Concepts such as shares, bids, asks do not exist- even 'odds' are abstracted away, replaced by a 'daily rental price'.</p>",
+      "<p>Reality Cards is a hybrid of NFT art and prediction markets.<br><br>Each outcome is a unique Non Fungible Token (NFT), and instead of betting on an outcome, you <i>own</i> it. Concepts such as shares, bids, asks do not exist- even 'odds' are abstracted away, replaced by a 'daily rental price'.</p>",
   },
   {
     header: "What does it mean to own an outcome?",
     body:
-      "<p>Each outcome is represented by a unique Non Fungible Token (NFT). In order to ‘bet’ on an outcome, you rent the corresponding NFT. For example, if the event is “Which team will win the Premier League” and you think Liverpool will win, you rent the ‘Liverpool’ NFT. Only one person can own a token/outcome at any time. The NFTs are referred to as Cards throughout the site and this FAQ.</p>",
+      "<p>In order to ‘bet’ on an outcome, you rent the corresponding NFT. For example, if the event is “Which team will win the Premier League” and you think Liverpool will win, you rent the ‘Liverpool’ NFT. Only one person can own a token/outcome at any time. The NFTs are referred to as Cards throughout the site and this FAQ.</p>",
   },
   {
     header: "How do I rent a Card?",
     body:
-      "<p>The prices given for each Card on Reality Cards are the daily rental prices in xDai. In order to rent a Card, you must have Metamask installed and unlocked, and set to the xDai chain (see <a href='https://medium.com/reality-cards/reality-cards-is-live-on-xdai-5348de9fc8fc'>here</a> for instructions). You must own some xDai. To rent a Card:<ul><li>Choose the daily rental price you wish to pay</li><li>Choose how much xDai you wish to deposit to fund the rent</li><li>Press ‘Rent Card’</li></ul></p>",
+      "<p>The prices given for each Card on Reality Cards are the daily rental prices in xDai. In order to rent a Card, you must have Metamask installed and unlocked, and you must own some xDai (or Sokol xDai, for our testnet version). To rent a Card:<ul><li>Deposit some xDai</li><li>Select the Card you wish to rent and state the daily rental price</li><li>Press ‘Rent Card’.</li></ul></p>",
   },
   {
-    header: "How do I use and obtain xDai?",
+    header: "What is the Sokol testnet?",
     body:
-      "<p>Please see <a href='https://medium.com/reality-cards/reality-cards-is-live-on-xdai-5348de9fc8fc'>here</a>.</p>",
+      "<p>Reality Cards will eventually launch on the xDai chain. For now, it is deployed on the Sokol testnet, which is xDai's own testnet.</p>",
   },
   {
-    header: "Do you support wallets other than Metamask?",
+    header: "How do I use and obtain Sokol xDai?",
     body:
-      "<p>Not in our MVP. Our v1 public release will allow multiple wallets.</p>",
+      "<p>Please see <a href='https://medium.com/reality-cards/reality-cards-connecting-to-sokol-testnet-cbbbbe167c07'>here</a>.</p>",
   },
   {
     header: "What if I want to rent a Card but someone else already owns it?",
@@ -42,7 +42,7 @@ export const faqs = [
   {
     header: "What is the deposit?",
     body:
-      "<p>The deposit is how much xDai is actually sent to the contract. Rent will gradually be taken out of your deposit balance as time passes.<br/><br/>For example: you rent a Card at a daily rental price of 24 xDai (or, 1 xDai per hour), and you deposit 4 xDai. After one hour, you will have paid 1 xDai in rent, and will have 3 xDai deposit remaining. After a total of four hours, your entire deposit will be used up, and you will lose ownership of the Card.<br/><br/>Each Card has a seperate deposit balance, it is not pooled among multiple Cards. It is possible for you to run out of deposit and lose ownership of one Card whilst still having a deposit balance remaining on a different Card.</p>",
+      "<p>The deposit is how much xDai is actually sent to the contract. Rent will gradually be taken out of your deposit balance as time passes.<br/><br/>For example: you rent a Card at a daily rental price of 24 xDai (or, 1 xDai per hour), and you deposit 4 xDai. After one hour, you will have paid 1 xDai in rent, and will have 3 xDai deposit remaining. After a total of four hours, your entire deposit will be used up, and you will lose ownership of the Card.<br/><br/>Your deposit balance is common across the entire site, allowing you to use the same deposit to rent as many Cards as you wish.</p>",
   },
   {
     header: "Can I withdraw my deposit?",
@@ -51,25 +51,36 @@ export const faqs = [
   },
   {
     header:
-      "If someone else takes the Card off me by paying a higher daily rental, is my unused deposit automatically returned?",
+      "What happens if my deposit runs out, or I withdraw all my deposit?",
     body:
-      "<p>No. Deposit withdrawals must be requested manually. The reason for this mechanic is so you will automatically own the Card again in the future if the new owner’s deposit runs out. You can easily see in the ‘My Cards’ page which Cards have a deposit balance left.</p>",
+      "<p>Card ownership will then automatically return to whoever owned the Card before you, at the price they were previously paying (i.e., the daily rental price will drop). If the previous owner has zero deposit, the process is repeated, until a previous owner with a deposit remaining is found. If there are no such previous owners, the Card becomes unowned and the price is reset to zero. This list of previous owners is called the 'Orderbook' and is visible on the Card page, so you can see who will own each Card again in the future, assuming no further activity.</p>",
   },
   {
     header:
-      "What happens if my deposit runs out, or I withdraw all my deposit?",
+      "What is the Orderbook?",
     body:
-      "<p>Card ownership will then automatically revert to whoever owned the Card before you, at the price they were previously paying (i.e., the daily rental price will drop). If the previous owner has zero deposit, the process is repeated, until a previous owner with a deposit remaining is found. If there are no such previous owners, the Card becomes unowned and the price is reset to zero. In our v1 public release a full list of previous owners will be visible, so you can see who will own each Card again in the future, assuming no further activity.</p>",
+      "<p>This is a list of all previous owners of the Card, and the price they paid. Ownership will return to these owners, should the current owner's deposit run out, assuming the previous owners have a remaining deposit balance.</p>",
+  },
+  {
+    header:
+      "What is the Leaderboard?",
+    body:
+      "<p>This is a list of all the owners of the Card, sorted by how long they have owned it. At the end of the event, whoever is at the top of the leaderboard will win the NFT.</p>",
+  },
+  {
+    header: "How do I access my profile?",
+    body:
+      "<p>Just click your address on the top right.</p>",
   },
   {
     header: "How do I withdraw my winnings if I win?",
     body:
-      "<p>The ‘My Cards’ page lists all the Cards you currently own, or have owned in the past. If any of these are winning Cards, a button ‘Withdraw’ will appear. It will also display what your winnings are.</p>",
+      "<p>Go to your profile (click your address) and then select 'Resovled Events' any winnings will be clearly shown for withdrawal. Winnings are returned to your deposit balance, not to your own address. In order to get the funds returned to your own address, you need to withdraw your deposit.</p>",
   },
   {
     header: "How does Reality Cards know who wins each event?",
     body:
-      "<p>Reality Cards uses a completely decentralised oracle solution to obtain the winning answer- the Reality Cards team have zero ability to set the winning outcome. In the current version, realit.io is used for the initial oracle, and if there are continued disputes, kleros.io is used as a decentralised court. This is the exact same Oracle solution that Gnosis Omen uses. <br/><br/>This approach will be changed in a future version, when Reality Cards tokens (RCs) have been implemented. Then, a RC holder will be nominated as the initial resolver- resolution will only be escalated to realit.io if there is a dispute. Further, RC holders will replace kleros.io as the final resolution layer if there are continued disputes on realit.io.",
+      "<p>Reality Cards uses a completely decentralised oracle solution to obtain the winning answer- the Reality Cards team have zero ability to set the winning outcome. Reality.eth is used for the initial oracle, and if there are continued disputes, kleros.io is used as a decentralised court. This is the exact same Oracle solution that Gnosis Omen uses.",
   },
   {
     header: "What happens if none of the Cards available ‘win’?",
@@ -86,29 +97,24 @@ export const faqs = [
     header:
       "What happens to the NFTs after the end of the event?",
     body:
-      "<p>In the MVP, nothing happens- but for our V1 release, the winning Card will be automatically transferred to the winner- as defined by owning the winning outcome for the longest period of time. Thus, after the event has ended, the Card becomes a collectable.</p>",
-  },
-  {
-    header: "How do Estimated Winnings work?",
-    body:
-      "<p>Estimated winnings are given when you rent a card, and in the 'My Cards' section. These are estimated because actual winnings depend on future rental prices, which cannot be known in advance. Thus, the estimated winnings calculation assumes that the sum of rental prices of all Cards for that market remain the same until the end of the event. If rental prices in the future are greater, your winnings will be higher than the estimate given, if they are lower your winnings will be lower.<br/><br/>If someone takes the Card off you before your deposit is used, your % return will be higher, because the rental price of the Card will have increased (that is the only way they can take it off you). However, since you owned the card for less time than originally estimated, your actual winnings may be lower. </p>",
+      "<p>At the end of the event, each NFT is sent to whoever owned it the longest. Thus, after the event has ended, each Card becomes a collectable.</p>",
   },
   {
     header:
       "I am currently renting a Card, and wish to send it to someone else, how do I do this?",
     body:
-      "<p>This is not possible. Before the event being bet on has taken place, only the contract itself can change ownership of the Card. However, when the event has occurred, you are free to transfer the Card to another address using any NFT/ERC721 wallet- but only if you are the winner! The winner gets to keep the Card at the end of the event.</p>",
+      "<p>This is not possible. Before the event being bet on has taken place, only the contract itself can change ownership of the Card. However, when the event has occurred, you are free to transfer the Card to another address using any NFT/ERC721 wallet- but only if you are the longest owner! The longest owner gets to keep the Card at the end of the event.</p>",
   },
   {
     header:
       "Does it make any difference if I own the Card at the end of the event/if I am the last owner of the Card?",
     body:
-      "<p>It does not make any difference. In the current MVP, Cards remain with the final owner forever, however for our main release, when the oracle resolves, each Card will be automatically transferred to whoever held it the longest.</p>",
+      "<p>It does not make any difference.</p>",
   },
   {
     header: "Are there any limits on prices/deposits etc?",
     body:
-      "<p>Yes, there are three:<ol><li>The minimum daily rental price is 1 xDai.</li><li>To take a Card off an existing owner, you must set a daily rental price at least 10% above what the current owner is paying.</li><li>You must deposit enough xDai to fund at least one minute's rent (i.e. the daily rental price you have chosen, divided by 1440). In v1, this one hour minimum will be reduced to one minute.</li></ol></p>",
+      "<p>Yes, there are three:<ol><li>The minimum daily rental price is 1 xDai.</li><li>To take a Card off an existing owner, you must set a daily rental price at least 10% above what the current owner is paying.</li><li>You must deposit enough xDai to fund at least one minute's rent (i.e. the daily rental price you have chosen, divided by 1440).</li></ol></p>",
   },
   {
     header:
@@ -117,34 +123,24 @@ export const faqs = [
       "<p>If you think there is an X% chance of outcome Y occurring, it is in your interests to rent Y if the current price is less than X * (average combined prices of all Cards).<br/><br/>There is an additional strategy even if you have no idea what the the 'correct' odds are for an event: it is always in your interests to rent all the tokens if their combined prices are lower than the average of their combined prices- you are essentially buying a 'complete set' (i.e. a share of all the outcomes) at a lower price than previous users paid. Of course, these strategies assume zero gas fees.<br/><br/>For further discussion, please see <a href='https://ethresear.ch/t/what-is-the-optimum-strategy-when-using-a-harberger-tax-prediction-market/7194' target='_blank'>here</a>.</p>",
   },
   {
-    header:
-      "Are there any owned functions? Is the contract upgradable? I.e. does the Reality Cards team have any admin powers, or is the contract completely decentralised?",
-    body:
-      "<p>There are zero owned (or pausable) functions, neither is it upgradable. The Reality Cards team have zero ability to interfere in any way with the contract; it is 100% decentralised.</p>",
-  },
-  {
     header: "Can I create a new market/event myself?",
     body:
-      "<p>This is not possible in the MVP, but will be possible in the v1 public release.</p>",
+      "<p>Yes, however this is not yet possible via the interface. It is coming soon :)</p>",
   },
   {
     header: "Are there any fees?",
     body:
-      "<p>No- 100% of the rent is returned to users in the form of winnings. In v1, at the market creator's discretion, it will be possible to give some share of the pot to the NFT artist.</p>",
-  },
-  {
-    header: "How does Reality Cards make money?",
-    body: "<p>Reality Cards does not make any money at this time.</p>",
+      "<p>There are zero fees, however, some portion of the rent (to be determined) is sent to the NFT artist in order to incentivise the creation of high quality art.</p>",
   },
   {
     header: "Is the code open source?",
     body:
-      "<p>It is currently closed source. We will open source the contracts, and verify them on block explorers, upon release of our public version. We will not be open sourcing our frontend.</p>",
+      "<p>It is currently closed source. They will be open sourced when we launch the project.</p>",
   },
   {
     header: "Has it been audited?",
     body:
-      "<p>Yes, the code has undergone a full audit by <a href='https://www.ditcraft.io/audits/realitycards' target='_blank'>ditCraft</a>. It has also passed a ‘spot check’ by the <a href='https://twitter.com/epheph' target='_blank'>Ethereum Foundation’s Scott Bigelow</a>.</p>",
+      "<p>The code is currently undergoing multiple audits.</p>",
   },
   {
     header: "Is there a Reality Cards token?",
@@ -155,12 +151,6 @@ export const faqs = [
     header: "What is the Reality Cards governance token (RC) used for?",
     body:
       "<p>The token will have the following uses:<ul><li>Project governance</li><li>Final layer of outcome resolution if there are continued disputes</li><li>Market curation</li><li>Incentivise platform use via liquidity mining</li></ul></br>It will not be necessary to own tokens to interact with existing markets, to rent tokens, etc.</p>",
-  },
-  {
-    header:
-      "What is the allocation of the Reality Cards governance token (RC)?",
-    body:
-      "<p>Token allocation:<ol><li>Founders/advisors: 25%</li><li>Project Treasury: 25%</li><li>Private & public sales and/or liquidity mining: 50%</li></ol>Tokens allocated to the Project Treasury can only be used with majority approval of existing token holders.<br><br>'Liquidity mining' refers to the allocation of RC tokens to everyone who rents tokens, a growth model used to great success by existing defi platforms such as Balancer and Compound.</p>",
   },
   {
     header:
