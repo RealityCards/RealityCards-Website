@@ -98,13 +98,17 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h5 className="mt-0 mb-0">Phase 1</h5>
-                  <h4 className="text-color-primary mt-0 mb-8">v1 Launch</h4>
+                  <h4 className="text-color-primary mt-0 mb-8">
+                    Testnet Launch
+                  </h4>
                   <p className="m-0 text-sm text-left">
-                    • Gamification (leaderboards)
+                    • Gamification (leaderboards, trophy cabinet)
                     <br />• Integration with TheGraph
-                    <br />• Allow users to create their own events
+                    <br />• New look and feel
                   </p>
-                  <h5 className="small mb-0">ETA: Feb 2021</h5>
+                  <h5 className="small mb-0 text-color-success">
+                    ETA: completed
+                  </h5>
                 </div>
               </div>
             </div>
@@ -127,15 +131,15 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-content">
                   <h5 className="mt-0 mb-0">Phase 2</h5>
                   <h4 className="text-color-primary mt-0 mb-8">
-                    v2 Launch
+                    Public launch
                   </h4>
                   <p className="m-0 text-sm text-left">
-                    • New game modes
-                    <br />• No-loss betting
-                    <br />• Reality Cards governance token
-                    <br />• Liquidity mining
+                    • Underbidding
+                    <br />• Metatransactions, mainnet deposits
+                    <br />• Upgradable NFTs
+                    <br />• Allow users to create their own events
                   </p>
-                  <h5 className="small mb-0">ETA: mid 2021</h5>
+                  <h5 className="small mb-0">ETA: late 2021</h5>
                 </div>
               </div>
             </div>

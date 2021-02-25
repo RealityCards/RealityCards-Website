@@ -1,9 +1,9 @@
-import React from "react";
-import PropTypes from "prop-types";
-import classNames from "classnames";
-import Logo from "./partials/Logo";
-import FooterNav from "./partials/FooterNav";
-import FooterSocial from "./partials/FooterSocial";
+import React from 'react';
+import PropTypes from 'prop-types';
+import classNames from 'classnames';
+import Logo from './partials/Logo';
+import FooterNav from './partials/FooterNav';
+import FooterSocial from './partials/FooterSocial';
 
 const propTypes = {
   topOuterDivider: PropTypes.bool,
@@ -17,8 +17,8 @@ const defaultProps = {
 
 const Footer = ({ className, topOuterDivider, topDivider, ...props }) => {
   const classes = classNames(
-    "site-footer center-content-mobile",
-    topOuterDivider && "has-top-divider",
+    'site-footer center-content-mobile',
+    topOuterDivider && 'has-top-divider',
     className
   );
 
@@ -27,8 +27,8 @@ const Footer = ({ className, topOuterDivider, topDivider, ...props }) => {
       <div className="container">
         <div
           className={classNames(
-            "site-footer-inner",
-            topDivider && "has-top-divider"
+            'site-footer-inner',
+            topDivider && 'has-top-divider'
           )}
         >
           <div className="footer-top space-between text-xxs">
@@ -37,7 +37,7 @@ const Footer = ({ className, topOuterDivider, topDivider, ...props }) => {
           </div>
           <div className="footer-bottom space-between text-xxs invert-order-desktop">
             <FooterNav />
-            <div className="footer-copyright">© Reality Cards, 2020</div>
+            <div className="footer-copyright">© Reality Cards, 2021</div>
           </div>
         </div>
       </div>
