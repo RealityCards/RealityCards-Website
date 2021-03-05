@@ -136,8 +136,8 @@ const FeaturesTiles = ({
                   <p className="m-0 text-sm text-left">
                     • Underbidding
                     <br />• Metatransactions, mainnet deposits
-                    <br />• Upgradable NFTs
-                    <br />• Allow users to create their own events
+                    <br />• Mainnet NFTs
+                    <br />• Allow users to create events
                   </p>
                   <h5 className="small mb-0">ETA: late 2021</h5>
                 </div>
@@ -146,7 +146,7 @@ const FeaturesTiles = ({
           </div>
           <div className="text-center reveal-from-bottom">
             <p>
-              Have more questions? Check our 33 points{' '}
+              Have more questions? Check our 32 points{' '}
               <Link to="/faq">FAQ page</Link>
             </p>
           </div>
