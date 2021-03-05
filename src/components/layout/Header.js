@@ -118,11 +118,11 @@ const Header = ({
                         FAQ
                       </Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link to="/team" onClick={closeMenu}>
                         Team
                       </Link>
-                    </li>
+                    </li> */}
                   </ul>
                   {!hideSignin && (
                     <ul className="list-reset header-nav-right">

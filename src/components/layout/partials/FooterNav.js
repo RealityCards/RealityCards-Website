@@ -1,9 +1,9 @@
-import React from "react";
-import classNames from "classnames";
-import { Link } from "react-router-dom";
+import React from 'react';
+import classNames from 'classnames';
+import { Link } from 'react-router-dom';
 
 const FooterNav = ({ className, ...props }) => {
-  const classes = classNames("footer-nav", className);
+  const classes = classNames('footer-nav', className);
 
   return (
     <nav {...props} className={classes}>
@@ -11,9 +11,9 @@ const FooterNav = ({ className, ...props }) => {
         <li>
           <Link to="/faq">FAQ</Link>
         </li>
-        <li>
+        {/* <li>
           <Link to="/team">Team</Link>
-        </li>
+        </li> */}
         <li>
           <Link to="/careers">Careers</Link>
         </li>
