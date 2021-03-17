@@ -2,7 +2,7 @@ export const faqs = [
   {
     header: "What is Reality Cards?",
     body:
-      "<p>Reality Cards is a hybrid of NFT art and prediction markets.<br><br>Each outcome is a unique Non Fungible Token (NFT), and instead of betting on an outcome, you <i>own</i> it. Concepts such as shares, bids, asks do not exist- even 'odds' are abstracted away, replaced by a 'daily rental price'.</p>",
+      "<p>Reality Cards is a hybrid of NFT art and prediction markets.<br><br>Each outcome is a unique Non Fungible Token (NFT), and instead of betting on an outcome, you <i>own</i> it (or to be more accurate, you rent it). Concepts such as shares, bids, asks do not exist- even 'odds' are abstracted away, replaced by a 'daily rental price'. At the end of the event, the longest owner of each outcome keeps it forever (regardless of whether or not the outcome was correct), it thus becomes a collectable.</p>",
   },
   {
     header: "What does it mean to own an outcome?",
@@ -130,12 +130,12 @@ export const faqs = [
   {
     header: "Are there any fees?",
     body:
-      "<p>There are zero fees, however, some portion of the rent (to be determined) is sent to the NFT artist in order to incentivise the creation of high quality art.</p>",
+      "<p>There are zero fees, however, some portion of the rent (to be determined) is sent to the NFT artist in order to incentivize the creation of high quality art.</p>",
   },
   {
     header: "Is the code open source?",
     body:
-      "<p>It is currently closed source. They will be open sourced when we launch the project.</p>",
+      "<p>It is currently closed source. It be open sourced when we launch the project.</p>",
   },
   {
     header: "Has it been audited?",
