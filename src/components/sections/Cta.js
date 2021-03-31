@@ -84,7 +84,7 @@ const Cta = ({
               </div>
               <div className="cta-action">
                 <a
-                  href="https://discord.gg/RS8pYJu"
+                  href="https://realitycards.io/discord"
                   className="button button-dark button-wide-mobile button-lg"
                   target="_blank"
                   rel="noopener noreferrer"

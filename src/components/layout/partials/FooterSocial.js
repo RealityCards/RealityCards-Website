@@ -9,7 +9,7 @@ const FooterSocial = ({ className, ...props }) => {
       <ul className="list-reset">
         <li>
           <a
-            href="https://discord.gg/RS8pYJu"
+            href="https://realitycards.io/discord"
             target="_blank"
             rel="noopener noreferrer"
           >

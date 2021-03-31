@@ -63,7 +63,7 @@ const Careers = () => {
                 interested in possible future opportunities please send your CV
                 to <b>careers@realitycards.io</b> or stay in touch on our{' '}
                 <a
-                  href="https://discord.gg/RS8pYJu"
+                  href="https://realitycards.io/discord"
                   target="_blank"
                   className="text-primary"
                 >

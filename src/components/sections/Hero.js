@@ -75,7 +75,7 @@ const Hero = ({
                   </Button>
                   <Button
                     tag="a"
-                    href="https://discord.gg/RS8pYJu"
+                    href="https://realitycards.io/discord"
                     className="button button-dark button-wide-mobile button-sm"
                     target="_blank"
                     rel="noopener noreferrer"
