@@ -57,7 +57,7 @@ const Hero = ({
           <div className="hero-content reveal-from-bottom">
             <h1 className="mt-0 mb-16" data-reveal-delay="200">
               <span className="text-color-primary">Reality Cards</span> is a
-              unique hybrid of prediction markets and NFT art. Don't bet on an
+              unique hybrid of prediction markets and NFTs. Don't bet on an
               outcome, <span className="text-color-primary">own</span> it!
             </h1>
             <div className="container-xs">
