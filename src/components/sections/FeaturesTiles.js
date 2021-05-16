@@ -71,7 +71,6 @@ const FeaturesTiles = ({
                   <p className="m-0 text-sm text-left">
                     • Contract written and audited
                     <br />• Comprehensive UX/UI design
-                    <br />• React app
                     <br />• Deployed on mainnet
                   </p>
                   <h5 className="small mb-0 text-color-success">
@@ -102,7 +101,7 @@ const FeaturesTiles = ({
                     Testnet Launch
                   </h4>
                   <p className="m-0 text-sm text-left">
-                    • Gamification (leaderboards, trophy cabinet)
+                    • Gamification
                     <br />• Integration with TheGraph
                     <br />• New look and feel
                   </p>
@@ -135,7 +134,6 @@ const FeaturesTiles = ({
                   </h4>
                   <p className="m-0 text-sm text-left">
                     • Underbidding
-                    <br />• Metatransactions, mainnet deposits
                     <br />• Mainnet NFTs
                     <br />• Allow users to create events
                   </p>

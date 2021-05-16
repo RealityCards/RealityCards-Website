@@ -46,18 +46,19 @@ const CtaDiscord = ({
       <div className="container">
         <div className={innerClasses}>
           <div className="cta-slogan">
-            <h3 className="m-0">Live on testnet</h3>
+            <h3 className="m-0">Beta on xDai network</h3>
             <p className="small text-white">
-              Learn the rent mechanics to prepare yourself for the public
-              launch.
+              Bet real money on real-life events
             </p>
           </div>
           <div className="cta-action">
             <a
-              href="https://testnet.realitycards.io"
+              href="https://forms.gle/qAZocpWSX3vaAhZq6"
+              target="_blank"
+              rel="noopener noreferrer"
               className="button button-dark button-wide-mobile button-lg"
             >
-              Try it now
+              Apply now
             </a>
           </div>
         </div>

@@ -126,7 +126,7 @@ const FeaturesSplit = ({
               </div>
             </div>
 
-            <div className="split-item">
+            {/* <div className="split-item">
               <div
                 className="split-item-content center-content-mobile reveal-from-left"
                 data-reveal-container=".split-item"
@@ -157,7 +157,7 @@ const FeaturesSplit = ({
                   height={396}
                 />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
