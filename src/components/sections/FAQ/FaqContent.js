@@ -2,7 +2,6 @@ import React from "react";
 import classNames from "classnames";
 import { SectionSplitProps } from "../../../utils/SectionProps";
 import SectionHeader from "../partials/SectionHeader";
-import Image from "../../elements/Image";
 import {
   Accordion,
   AccordionItem,
@@ -47,13 +46,6 @@ const FaqContent = ({
     "features-split-inner section-inner",
     topDivider && "has-top-divider",
     bottomDivider && "has-bottom-divider"
-  );
-
-  const splitClasses = classNames(
-    "split-wrap",
-    invertMobile && "invert-mobile",
-    invertDesktop && "invert-desktop",
-    alignTop && "align-top"
   );
 
   const sectionHeader = {

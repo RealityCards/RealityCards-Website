@@ -1,9 +1,8 @@
 import React, { useContext } from "react";
 import { AppContext } from "../../AppProvider";
-import Switch from "react-switch";
 
 const ThemeSwitcher = () => {
-  const { toggleTheme, themeMode } = useContext(AppContext);
+  const { toggleTheme } = useContext(AppContext);
   const handleThemeChange = (e) => {
     toggleTheme();
   };
