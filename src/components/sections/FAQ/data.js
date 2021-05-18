@@ -72,7 +72,7 @@ export const faqs = [
   {
     header: 'How do I withdraw my winnings if I win?',
     body:
-      "<p>Go to your profile (click your address) and then select 'Resovled Events' any winnings will be clearly shown for withdrawal. Winnings are returned to your deposit balance, not to your own address. In order to get the funds returned to your own address, you need to withdraw your deposit.</p>",
+      "<p>Go to your profile (click your address) and then select 'Resolved Events' any winnings will be clearly shown for withdrawal. Winnings are returned to your deposit balance, not to your own address. In order to get the funds returned to your own address, you need to withdraw your deposit.</p>",
   },
   {
     header: 'How does Reality Cards know who wins each event?',
@@ -130,7 +130,7 @@ export const faqs = [
   {
     header: 'Is the code open source?',
     body:
-      '<p>It is currently closed source. It be open sourced when we launch the project.</p>',
+      '<p>It is currently closed source. It will be open sourced when we launch the project.</p>',
   },
   {
     header: 'Has it been audited?',
