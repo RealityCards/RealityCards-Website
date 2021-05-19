@@ -40,13 +40,6 @@ const Content = ({
     bottomDivider && "has-bottom-divider"
   );
 
-  const splitClasses = classNames(
-    "split-wrap",
-    invertMobile && "invert-mobile",
-    invertDesktop && "invert-desktop",
-    alignTop && "align-top"
-  );
-
   const sectionHeader = {
     title: `Reality Cards Terms of Service`,
   };

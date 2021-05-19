@@ -10,7 +10,6 @@ import LayoutDefault from './layouts/LayoutDefault';
 // Views
 import Home from './views/Home';
 import FAQ from './views/FAQ';
-import Team from './views/Team';
 import Careers from './views/Careers';
 import Terms from './views/Terms';
 import Privacy from './views/Privacy';
@@ -42,12 +41,6 @@ const App = () => {
       children={() => (
         <Switch>
           <AppRoute exact path="/faq" component={FAQ} layout={LayoutDefault} />
-          {/* <AppRoute
-            exact
-            path="/team"
-            component={Team}
-            layout={LayoutDefault}
-          /> */}
           <AppRoute
             exact
             path="/careers"

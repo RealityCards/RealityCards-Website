@@ -1,7 +1,7 @@
 import React from "react";
 import { TwitterTweetEmbed } from "react-twitter-embed";
 
-const Tweets = ({}) => {
+const Tweets = () => {
   return (
     <div className="d-flex flex-row flex-wrap justify-content-around">
       <TwitterTweetEmbed tweetId={"1305629707745005570"} />

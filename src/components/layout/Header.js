@@ -4,7 +4,6 @@ import classNames from 'classnames';
 import { Link } from 'react-router-dom';
 import Logo from './partials/Logo';
 import ThemeSwitcher from './ThemeSwitcher';
-import Button from '../elements/Button';
 import DiscordButton from '../elements/DiscordButton';
 
 const propTypes = {

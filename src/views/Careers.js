@@ -46,6 +46,7 @@ const Careers = () => {
                             href="https://cryptocurrencyjobs.co/engineering/reality-cards-frontend-engineer-for-defi-nft-prediction-market/"
                             target="_blank"
                             className="text-primary"
+                            rel="noopener noreferrer"
                           >
                             <b>See job description</b>
                           </a>
