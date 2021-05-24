@@ -10,11 +10,11 @@ const Careers = () => {
             <SectionHeader
               data={{
                 title: 'Careers',
-                paragraph: 'One position available',
+                paragraph: 'Three positions available',
               }}
-              className="center-content w-75"
+              className="center-content w-100"
             />
-            <div className="w-75 panel">
+            <div className="w-100 panel">
               <div
                 style={{
                   display: 'flex',
@@ -22,9 +22,46 @@ const Careers = () => {
                   justifyContent: 'center',
                 }}
               >
+                {/* CMO */}
+                <div
+                  className="tiles-item reveal-from-bottom"
+                  style={{ maxWidth: 300 }}
+                  data-reveal-delay="200"
+                >
+                  <div className="tiles-item-inner rounded pt-0 text-center">
+                    <div className="testimonial-item-footer text-xs mt-0 mb-0 pt-0">
+                      <h2
+                        className="testimonial-item-name text-color-high mb-2 mt-0"
+                        style={{ display: 'block', color: '#222' }}
+                      >
+                        Head of Marketing
+                      </h2>
+                      <span
+                        className="testimonial-item-link"
+                        style={{ display: 'block' }}
+                      >
+                        OPEN NOW
+                      </span>
+                      <div className="footer-social has-top-divider mt-12 pt-12">
+                        <ul className="list-reset">
+                          <a
+                            href="https://cryptocurrencyjobs.co/marketing/reality-cards-head-of-marketing-cmo-for-defi-nft-project/"
+                            target="_blank"
+                            className="text-primary"
+                            rel="noopener noreferrer"
+                          >
+                            <b>See job description</b>
+                          </a>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* FRONTEND */}
                 <div
                   className="tiles-item reveal-from-bottom"
                   data-reveal-delay="200"
+                  style={{ maxWidth: 300 }}
                 >
                   <div className="tiles-item-inner rounded pt-0 text-center">
                     <div className="testimonial-item-footer text-xs mt-0 mb-0 pt-0">
@@ -43,7 +80,42 @@ const Careers = () => {
                       <div className="footer-social has-top-divider mt-12 pt-12">
                         <ul className="list-reset">
                           <a
-                            href="https://cryptocurrencyjobs.co/engineering/reality-cards-frontend-engineer-for-defi-nft-prediction-market/"
+                            href="https://cryptocurrencyjobs.co/engineering/reality-cards-frontend-engineer-for-defi-nft-project/"
+                            target="_blank"
+                            className="text-primary"
+                            rel="noopener noreferrer"
+                          >
+                            <b>See job description</b>
+                          </a>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* QA */}
+                <div
+                  className="tiles-item reveal-from-bottom"
+                  data-reveal-delay="200"
+                  style={{ maxWidth: 300 }}
+                >
+                  <div className="tiles-item-inner rounded pt-0 text-center">
+                    <div className="testimonial-item-footer text-xs mt-0 mb-0 pt-0">
+                      <h2
+                        className="testimonial-item-name text-color-high mb-2 mt-0"
+                        style={{ display: 'block', color: '#222' }}
+                      >
+                        QA Engineer
+                      </h2>
+                      <span
+                        className="testimonial-item-link"
+                        style={{ display: 'block' }}
+                      >
+                        OPEN NOW
+                      </span>
+                      <div className="footer-social has-top-divider mt-12 pt-12">
+                        <ul className="list-reset">
+                          <a
+                            href="https://cryptocurrencyjobs.co/engineering/reality-cards-qa-engineer-for-defi-nft-project/"
                             target="_blank"
                             className="text-primary"
                             rel="noopener noreferrer"
@@ -56,7 +128,7 @@ const Careers = () => {
                   </div>
                 </div>
               </div>
-            </div>{' '}
+            </div>
             {/* <div className="text-center w-75 panel">
               <p>Thank you for choosing Reality Cards!</p>
               <p>
